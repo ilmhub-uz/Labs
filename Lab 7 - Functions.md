@@ -195,7 +195,7 @@ Kvadrat ($f(x) = ax^2 + bx + c$) funksiyaning javobini qaytaradigan funksiya yoz
 - `main()` funksiyasi:
     - 4 ta sonni o'qiydi, `func()` funksiyani chaqiradi va natijani chop etadi.
 
-![http://ojilmhub.uz/public/upload/84239e40c7.png](http://ojilmhub.uz/public/upload/84239e40c7.png)
+![Explanation](7.png)
 
 #### Input
 
