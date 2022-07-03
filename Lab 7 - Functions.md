@@ -200,7 +200,7 @@ Kvadrat ($f(x) = ax^2 + bx + c$) funksiyaning javobini qaytaradigan funksiya yoz
 #### Input
 
 - Birinchi qatorda `x`ning qiymati o'qilsin.
-- Ikkinchi qatorda mos ravishda `a`, `b`, `c`larning qiymati bitta qatorda, shu tartibda o'qilsin.
+- Ikkinchi qatorda mos ravishda `a`, `b`, `c` larning qiymati bitta qatorda, shu tartibda o'qilsin.
 
 #### Output
 
@@ -228,18 +228,18 @@ Ikkita kvadrat funksiyalar $f(x)$ va $g(x)$ uchun $g(f(x))$ funksiyaning javobin
 - `main()` funksiyasi:
     - $x$ ni va ikkita funksiya uchun ularning ***a, b, c*** parametrlarini o'qiydi, `func()` funksiyani chaqiradi va natijani chop etadi.
 
-> Masalan, x = 2, f(x) va g(x) funksiyaning parametrlari mos ravishda 3, 2, 1 va -1, 8, 4 bo'lsa $f(x) = 3*2^2+2*2+1=17$ va $g(f(x)) = -1*17^2+17*8+4=-149$ bo'ladi.
+> Masalan, $x = 2, f(x) va g(x) $funksiyaning parametrlari mos ravishda 3, 2, 1 va -1, 8, 4 bo'lsa $f(x) = 3*2^2+2*2+1=17$ va $g(f(x)) = -1*17^2+17*8+4=-149$ bo'ladi.
 > 
 
 #### Input
 
-- Birinchi qatorda `x`ning qiymati o'qilsin.
+- Birinchi qatorda `x` ning qiymati o'qilsin.
 - Ikkinchi qatorda mos ravishda $f(x)$ funksiyaning `a`, `b`, `c` qiymatlari bitta qatorda, shu tartibda o'qilsin.
 - Uchinchi qatorda mos ravishda $g(x)$ funksiyaning `a`, `b`, `c` qiymatlari bitta qatorda, shu tartibda o'qilsin.
 
 #### Output
 
-g(f(x)) funksiyaning javobini chop etilsin.
+$g(f(x))$ funksiyaning javobini chop etilsin.
 
 #### Namuna 1
 | Input | Output |
