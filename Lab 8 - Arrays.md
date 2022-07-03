@@ -179,7 +179,7 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 > HINT: 2 o'lchamli `array`dan foydalanilsin.
 
-[image](Lab%208%20%E2%80%94%20Arrays%208ce752ab651248cdb4f04b8f7fc97ff6/Untitled.png)
+![Jadval](8-8.png)
 
 ###### Input
 
