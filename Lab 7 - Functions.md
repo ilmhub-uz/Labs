@@ -100,7 +100,7 @@ Bitta butun son `N` ni o'qilsin va shu son orqali namunadagidek to'rtburchak cho
     - Return type: `void`.
     - Ikki marta `x`ni va ularning orasida nechtaligi `x`ga bo'g'liq bo'lgan ***`space`*** larni chop etadi.
 
-![Lab%207%20%E2%80%94%20Functions%20acc2fc6f1c0940bf892a909b072ec61d/Untitled.png](Lab%207%20%E2%80%94%20Functions%20acc2fc6f1c0940bf892a909b072ec61d/Untitled.png)
+![Example Output 4](4.png)
 
 #### Input
 
