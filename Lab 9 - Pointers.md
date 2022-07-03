@@ -532,10 +532,6 @@ Uchinchi arrayni chop etilsin.
 | - | - | 
 | `3` <br>`1 2 3` <br>`5 10 15` | `16 12 8` |
 
-```
-
-//1+15=16, 2+10=12, 3+5=8;
-```
 
 #### Namuna 2
 | Input | Output |
