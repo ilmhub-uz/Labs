@@ -483,8 +483,10 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 
 
 <br>
-### Masala 15
+### Masala 16
+
 ## Sekund => `Soat:Minut:Sekund`
+
 > Quyidagi talablarga mos keluvchi metod yozing:
 
 <br>
