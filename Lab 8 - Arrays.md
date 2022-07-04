@@ -275,3 +275,32 @@ Sotib olingan soyabonlar sonini chop eting.
 | Input | Output |
 | - | - |
 | `2 5 1`<br>`2 0`<br>`1 1`<br>`2 0`<br>`1 1`<br>`2 1` | `2` |
+
+### Masala 12.
+
+### Array birlashtirish
+
+###### Description
+
+>  Sizga ikkita saralangan bog'langan ro'yxatlar array 1 va array 2 beriladi.
+>  Ikki arrayni bitta tartiblangan arrayda birlashtiring. Array birinchi ikkita array elementrini birlashtirish orqali tuzilishi kerak.
+>  Birlashtirilgan bog'langan arrayning boshini qaytaring.  
+###### Input
+> - arrayda sonlar soni (1 ≤ arr_num ≤ 50).
+> - arraydagi sonlar (-100 <= arr_val <= 100)
+    
+###### Output
+array 1 va array2 ham kamaymaydigan tartibda chop eting
+
+###### Namuna 1
+| Input | Output |
+| - | - |
+| `1 2 4`<br>`1 3 4` |`1 1 2 3 4 4`|
+###### Namuna 2
+| Input | Output |
+| - | - |
+| ` `<br>`0`<br>|`0`|
+###### Namuna 3
+| Input | Output |
+| - | - |
+| ` `<br>` `<br> |` `|
