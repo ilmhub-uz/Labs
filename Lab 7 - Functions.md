@@ -476,6 +476,7 @@ Birinchi qatorda `testcase` lar soni T berilsin. Keyingi qatordan boshlab, har b
 
 Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majburligini alohida qatorlarda chop etilsin.
 
+
 #### Namuna 1
 | Input | Output |
 | - | - | 
