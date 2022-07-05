@@ -304,8 +304,8 @@ Ikkala arraydagi sonlarning umumiy medianasini nuqtadan keyin 5 ta aniqlikda cho
 ###### Namuna 1
 | Input | Output |
 | - | - |
-| 1,3 </br> 2| 2.00000 *`//izoh: umumiy array = [1, 2, 3] va mediana = 2.`* |
-| 1,2 </br> 3,4 | 2.50000 *`//izoh:  umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`* |
+| 1,3 </br> 2| 2.00000  </br> *(Izoh: `Umumiy array = [1, 2, 3] va mediana = 2.`)* |
+| 1,2 </br> 3,4 | 2.50000 </br> *(Izoh:  `Umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`*) |
 
 ### Arraydagi uchliklar soni
 
@@ -329,6 +329,5 @@ Yuqoridagi shartlarni qanoatlantiradigan 3 liklarni alohida qatorlarda chop etin
 
 | Input | Output |
 | - | - |
-| -1,0,1,2,-1,-4 | -1,-1,2 </br> -1,0,1 |
-
-Izoh: `[-1,0,1,2,-1,-4]` => `[[-1,-1,2],[-1,0,1]]`
+| 6 </br> -1,0,1,2,-1,-4 | -1,-1,2 </br> -1,0,1 </br> *(Izoh: `[-1,0,1,2,-1,-4] => [[-1,-1,2],[-1,0,1]]`)* |
+| 1 </br> 0 | *(Izoh: `[0] => []`)* |
