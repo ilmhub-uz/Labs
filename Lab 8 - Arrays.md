@@ -304,5 +304,31 @@ Ikkala arraydagi sonlarning umumiy medianasini nuqtadan keyin 5 ta aniqlikda cho
 ###### Namuna 1
 | Input | Output |
 | - | - |
-| 1, 3 </br> 2| `2.00000` *`//izoh: umumiy array = [1, 2, 3] va mediana = 2.`* |
-| 1, 2 </br> 3, 4 | 2.50000 *`//izoh:  umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`* |
+| 1,3 </br> 2| 2.00000 *`//izoh: umumiy array = [1, 2, 3] va mediana = 2.`* |
+| 1,2 </br> 3,4 | 2.50000 *`//izoh:  umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`* |
+
+### Arraydagi uchliklar soni
+
+###### Description
+
+Uzunligi **`n`** bo'lgan `nums` array berilgan.
+
+Ushbu arraydagi mavjud `[nums[i], nums[j], nums[k]]` 3 liklari sonini topingki `i != j != k` va `nums[i] + nums[j] + nums[k] == 0` shartlar qanoatlantirilsin.
+###### Input
+
+Birinchi qatorda `nums` uzunligi `(n)` va ikkinchi qatorda `nums` arrayning sonlarini o'qiladi.
+
+Arrayning sonlari orasida `,` bilan o'qiladi. 
+
+`0 <= n <= 3000`
+`-10^5 <= nums1[i] <= 10^5`
+
+###### Output
+
+Yuqoridagi shartlarni qanoatlantiradigan 3 liklarni alohida qatorlarda chop eting.
+
+| Input | Output |
+| - | - |
+| -1,0,1,2,-1,-4 | -1,-1,2 </br> -1,0,1 |
+
+Izoh: `[-1,0,1,2,-1,-4]` => `[[-1,-1,2],[-1,0,1]]`
