@@ -275,3 +275,34 @@ Sotib olingan soyabonlar sonini chop eting.
 | Input | Output |
 | - | - |
 | `2 5 1`<br>`2 0`<br>`1 1`<br>`2 0`<br>`1 1`<br>`2 1` | `2` |
+
+### Masala 11.
+
+### Ikki array medianasi
+
+###### Description
+
+Uzunligi mos ravishda **`m`** va **`n`** bo'lgan, o'sish tartibida tartiblangan 2 ta **`array`** `(nums1 va nums2)` berilgan.
+
+Ikkala arraydagi sonlar uchun umumiy medianani toping.
+
+###### Input
+
+Birinchi qatorda `nums1` uzunligi `(n)` va ikkinchi qatorda `nums1` sonlarini o'qiladi.
+
+Uchinchi qatorda `nums2` uzunligi `(m)` va to'rtinchi qatorda `nums2` sonlarini o'qiladi.
+
+Ikkala arrayning ham sonlari orasida `,` bilan o'qiladi. 
+
+`0 <= n, m <= 1000`
+`-10^6 <= nums1[i], nums2[i] <= 10^6`    
+
+###### Output
+
+Ikkala arraydagi sonlarning umumiy medianasini nuqtadan keyin 5 ta aniqlikda chop etiladi.
+
+###### Namuna 1
+| Input | Output |
+| - | - |
+| 1, 3 </br> 2| `2.00000` *`//izoh: umumiy array = [1, 2, 3] va mediana = 2.`* |
+| 1, 2 </br> 3, 4 | 2.50000 *`//izoh:  umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`* |
