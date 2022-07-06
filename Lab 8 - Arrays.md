@@ -292,9 +292,9 @@ Uchinchi qatorda $nums_2$ uzunligi $m$ va to'rtinchi qatorda $nums_2$ sonlarini 
 
 Ikkala arrayning ham sonlari orasida `space` bilan o'qiladi. 
 
-$0 <= n, m <= 1000$
+$0 \leq n, m \leq 1000$
 
-$-10^6 <= nums_1 [i], nums_2 [i] <= 10^6$    
+$-10^6 \leq nums_1 [i], nums_2 [i] \leq 10^6$    
 
 ###### Output
 
@@ -328,8 +328,8 @@ Birinchi qatorda $nums$ uzunligi $n$ va ikkinchi qatorda $nums$ arrayning sonlar
 
 Arrayning sonlari orasida `space` bilan o'qiladi. 
 
-$0 <= n <= 3000$
-$-10^5 <= nums1[i] <= 10^5$
+$0 \leq n \leq 3000$
+$-10^5 \leq nums1[i] \leq 10^5$
 
 ###### Output
 
@@ -342,5 +342,5 @@ Yuqoridagi shartlarni qanoatlantiradigan uchliklarni alohida qatorlarda orasida 
 
 >###### Izoh
 >---
-> 1. $[-1,0,1,2,-1,-4] => [[-1,-1,2],[-1,0,1]]$
-> 2. $[0] => []$
+> 1. $[-1,0,1,2,-1,-4] \Longrightarrow [[-1,-1,2],[-1,0,1]]$
+> 2. $[0] \Longrightarrow []$
