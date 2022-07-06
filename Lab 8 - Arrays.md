@@ -276,26 +276,25 @@ Sotib olingan soyabonlar sonini chop eting.
 | - | - |
 | `2 5 1`<br>`2 0`<br>`1 1`<br>`2 0`<br>`1 1`<br>`2 1` | `2` |
 
-### Masala 11.
-
-### Ikki array medianasi
+### Masala 12 - Ikki array medianasi
 
 ###### Description
 
-Uzunligi mos ravishda **`m`** va **`n`** bo'lgan, o'sish tartibida tartiblangan 2 ta **`array`** `(nums1 va nums2)` berilgan.
+Uzunligi mos ravishda **`m`** va **`n`** bo'lgan, o'sish tartibida tartiblangan 2 ta **`array`** $nums_1$ va $nums_2$ berilgan.
 
 Ikkala arraydagi sonlar uchun umumiy medianani toping.
 
 ###### Input
 
-Birinchi qatorda `nums1` uzunligi `(n)` va ikkinchi qatorda `nums1` sonlarini o'qiladi.
+Birinchi qatorda $nums_1$ uzunligi $n$ va ikkinchi qatorda $nums_1$ sonlarini o'qiladi.
 
-Uchinchi qatorda `nums2` uzunligi `(m)` va to'rtinchi qatorda `nums2` sonlarini o'qiladi.
+Uchinchi qatorda $nums_2$ uzunligi $m$ va to'rtinchi qatorda $nums_2$ sonlarini o'qiladi.
 
-Ikkala arrayning ham sonlari orasida `,` bilan o'qiladi. 
+Ikkala arrayning ham sonlari orasida `space` bilan o'qiladi. 
 
-`0 <= n, m <= 1000`
-`-10^6 <= nums1[i], nums2[i] <= 10^6`    
+$0 <= n, m <= 1000$
+
+$-10^6 <= nums_1 [i], nums_2 [i] <= 10^6$    
 
 ###### Output
 
@@ -304,30 +303,44 @@ Ikkala arraydagi sonlarning umumiy medianasini nuqtadan keyin 5 ta aniqlikda cho
 ###### Namuna 1
 | Input | Output |
 | - | - |
-| 1,3 </br> 2| 2.00000  </br> *(Izoh: `Umumiy array = [1, 2, 3] va mediana = 2.`)* |
-| 1,2 </br> 3,4 | 2.50000 </br> *(Izoh:  `Umumiy array = [1, 2, 3, 4] va mediana = (2 + 3) / 2 = 2.50000`*) |
+| 1 3 </br> 2 | 2.00000 |
+| 1 2 </br> 3 4 | 2.50000 |
 
-### Arraydagi uchliklar soni
+
+> ###### Izoh
+>---
+>1. *Umumiy array = $[1, 2, 3]$ va mediana = $2$.*
+>2. *Umumiy array = $[1, 2, 3, 4]$ va mediana = $\frac{(2 + 3)}{2} = 2.50000$.*
+
+### Masala 13 - Arraydagi uchliklar soni
 
 ###### Description
 
-Uzunligi **`n`** bo'lgan `nums` array berilgan.
+Uzunligi $n$ bo'lgan $nums$ array berilgan.
 
-Ushbu arraydagi mavjud `[nums[i], nums[j], nums[k]]` 3 liklari sonini topingki `i != j != k` va `nums[i] + nums[j] + nums[k] == 0` shartlar qanoatlantirilsin.
+Ushbu arraydagi quyidagi shartlarni qanoatlantiradigan $[nums[i], nums[j], nums[k]]$ uchliklarni toping:
+
+$i \neq j \neq k$
+$nums[i] + nums[j] + nums[k] = 0$
 ###### Input
 
-Birinchi qatorda `nums` uzunligi `(n)` va ikkinchi qatorda `nums` arrayning sonlarini o'qiladi.
+Birinchi qatorda $nums$ uzunligi $n$ va ikkinchi qatorda $nums$ arrayning sonlarini o'qiladi.
 
-Arrayning sonlari orasida `,` bilan o'qiladi. 
+Arrayning sonlari orasida `space` bilan o'qiladi. 
 
-`0 <= n <= 3000`
-`-10^5 <= nums1[i] <= 10^5`
+$0 <= n <= 3000$
+$-10^5 <= nums1[i] <= 10^5$
 
 ###### Output
 
-Yuqoridagi shartlarni qanoatlantiradigan 3 liklarni alohida qatorlarda chop eting.
+Yuqoridagi shartlarni qanoatlantiradigan uchliklarni alohida qatorlarda orasida `space` bilan chop eting.
 
 | Input | Output |
 | - | - |
-| 6 </br> -1,0,1,2,-1,-4 | -1,-1,2 </br> -1,0,1 </br> *(Izoh: `[-1,0,1,2,-1,-4] => [[-1,-1,2],[-1,0,1]]`)* |
-| 1 </br> 0 | *(Izoh: `[0] => []`)* |
+| 6 </br> -1 0 1 2 -1 -4 | -1 -1 2 </br> -1 0 1 </br> |
+| 1 </br> 0 |  |
+
+>###### Izoh
+>---
+> 1. $[-1,0,1,2,-1,-4] => [[-1,-1,2],[-1,0,1]]$
+> 2. $[0] => []$
