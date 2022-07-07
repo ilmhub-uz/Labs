@@ -282,15 +282,16 @@ Sotib olingan soyabonlar sonini chop eting.
 
 ###### Description
 
->  Sizga ikkita saralangan bog'langan ro'yxatlar array 1 va array 2 beriladi.
->  Ikki arrayni bitta tartiblangan arrayda birlashtiring. Array birinchi ikkita array elementrini birlashtirish orqali tuzilishi kerak.
->  Birlashtirilgan bog'langan arrayning boshini qaytaring.  
+>  Siz ikkita array o'qib oling.
+>  Ikkita arrayni bitta arrayda birlashtiring. 
+>  Birlashtirilgan arrayni o'sib borish tartibida sort qiling
+>  Birlashtirilgan arrayni chop eting.  
 ###### Input
-> - arrayda sonlar soni (1 ≤ arr_num ≤ 50).
+> - array elementlar soni (1 ≤ arr_num ≤ 50).
 > - arraydagi sonlar (-100 <= arr_val <= 100)
     
 ###### Output
-array 1 va array2 ham kamaymaydigan tartibda chop eting
+Birlashtirilgan arrayni o'sish borish tartibida chop eting.
 
 ###### Namuna 1
 | Input | Output |
