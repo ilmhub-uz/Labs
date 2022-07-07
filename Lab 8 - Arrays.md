@@ -284,7 +284,7 @@ Sotib olingan soyabonlar sonini chop eting.
 
 >  Siz ikkita array o'qib oling.
 >  Ikkita arrayni bitta arrayda birlashtiring. 
->  Birlashtirilgan arrayni o'sib borish tartibida sort qiling
+>  Birlashtirilgan arrayni o'sib borish tartibida sort qiling.
 >  Birlashtirilgan arrayni chop eting.  
 ###### Input
 > - array elementlar soni (1 ≤ arr_num ≤ 50).
