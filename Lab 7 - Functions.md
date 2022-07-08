@@ -480,3 +480,40 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 | Input | Output |
 | - | - | 
 | `2`<br>`-5 1 12 1`<br>`7`<br>`1 1 8`<br>`-3 -1 1`<br>`2 2 2`<br>`5 5 1`<br>`-4 5 1`<br>`12 1 1`<br>`12  1 2`<br>`-5 1 5 1`<br>`1`<br>` 0 0 2` | `3`<br>`0` |
+
+<br>
+
+## Oxirgi so'z uzunligini top
+<br>
+
+ `String`dagi harflar sonini topib, qaytaruvchi funksiya / metod yozing va o'sha funksiyadan foydalanib, `input`ga kiritilgan `string` dagi harflar sonini chop eting.
+
+<br>
+
+> Tinish belgilari, bo'shliq (space) harflar soniga kiritilmasin.
+
+### Input
+```
+Bir yoki undan ko'proq so'zlardan iborat matn
+```
+### Output
+```
+Matndagi harflar sonini ifodalovchi son
+```
+
+<br>
+
+### Sample input 1
+| Input  | Output |
+|-------|----  |
+|Hello world | 10|                                                
+
+### Sample input 
+|Input| Output |
+|-----|--------|
+| Meva-chevalar: anor, olma  | 20 |
+
+### Sample input 1
+| Input  | Output |
+|-------|----  |
+| %$#! - , ?: &^ | 0|  
