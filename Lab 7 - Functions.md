@@ -486,13 +486,13 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 
 ### Masala 16
 
-## Sekund => `Soat:Minut:Sekund`
+## Sekundlarni odam tushunadigan formatga o'tkazing
 
-> Quyidagi talablarga mos keluvchi metod yozing:
+> Quyidagi talablarga mos keluvchi metod / funksiya yozing:
 
 <br>
 
-* Musbat sonlarni (sekundlar) qabul qilsin va ularni odamga tushunarli vaqt formati (`HH:MM:SS`)ga o'tkazib qaytarsin.
+* Parametr sifatida musbat son (sekundlar) qabul qilsin va ularni odamga tushunarli vaqt formati (`HH:MM:SS`)ga o'tkazib qaytarsin.
 * Maksimum qabul qilinuvchi qiymat `99:59:59` bo'lsin, bu qiymatdan ortiq sekundlar kiritilganda `Error` xabarini qaytarsin.
 * Manfiy son yoki `string`, `char` kabi yaroqsiz ma'lumot kiritilsa, `Error` xabarini qaytarsin.
 
