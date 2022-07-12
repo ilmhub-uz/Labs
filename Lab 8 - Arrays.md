@@ -2,18 +2,18 @@
 
 ### Masala 1.
 
-###### Description
+##### Description
 
 > - 5 ta son o'qib, ularni  ***`array`*** ga saqlansin.
 > - Ularning o'rtachasini hisoblab, shu o'rta arifmetik qiymatdan katta sonlarning o'zinigina chop etilsin.
 
  
 
-###### Input
+#### Input
 
 5 ta butun son.
 
-###### Output
+#### Output
 
 Kiritilgan sonlarning o'rtachadan kattalarini chop eting.
 
@@ -26,18 +26,18 @@ Kiritilgan sonlarning o'rtachadan kattalarini chop eting.
 
 ### Masala 2.
 
-###### Description
+##### Description
 
 > - 5 ta son o'qib, ularni ***`array`*** ga saqlansin.
 > - ***`Array`*** ning birinchi va ikkinchi elementlarini taqqoslansin.
 > - Agar birinchi element ikkinchisidan katta bo'lsa, ularning qiymatlarini almashtirilsin(swap).
 > - Yuqoridagi amalni ***`array`*** ning birinchi elementidan oxiridan bitta oldingi elementigacha takrorlansin.
 
-###### Input
+#### Input
 
 5 ta butun son.
 
-###### Output
+#### Output
 
 Hosil bo'lgan ***`array`*** ning har bir elementini alohida qatorlarda chop etilsin.
 
@@ -50,17 +50,17 @@ Hosil bo'lgan ***`array`*** ning har bir elementini alohida qatorlarda chop etil
 
 ### Masala 3.
 
-###### Description
+##### Description
 
 > - 10 ta butun `N` sonlarni o'qib, ularni ***`array`*** ga saqlansin (`1 ≤ N ≤ 3`).
 > - Arrayda har bir sonning nechtadan mavjudligini aniqlansin.
 > - Har bir sonni va shu sonning sanog'icha yulduzchalarni chop etadigan dastur tuzilsin.
 
-###### Input
+#### Input
 
 10 ta butun son `N` (`1 ≤ N ≤ 3`).
 
-###### Output
+#### Output
 
 Har bir sonni va shu sonning sanog'icha yulduzchalarni orasini `:` va ***`space`*** bilan ajratilgan holda chop etilsin.
 
@@ -74,16 +74,16 @@ Har bir sonni va shu sonning sanog'icha yulduzchalarni orasini `:` va ***`space`
 
 ### Masala 4.
 
-###### Description
+##### Description
 
-- 5 ta butun sonlarni o'qib, ularni ***`array`*** ga saqlansin.
-- Kiritilgan elementlarning eng kattasini va ikkinchi eng kattasini chop etilsin.
+>- 5 ta butun sonlarni o'qib, ularni ***`array`*** ga saqlansin.
+>- Kiritilgan elementlarning eng kattasini va ikkinchi eng kattasini chop etilsin.
 
-###### Input
+#### Input
 
 5 ta butun son.
 
-###### Output
+#### Output
 
 Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etilsin.
 
@@ -103,16 +103,16 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 ### Masala 5.
 
-###### Description
+##### Description
 
 > - 7 ta **`char`** belgi o'qib, ularni ***`array`*** ga saqlansin.
 > - Hosil bo'lgan ***`array`*** da `cat` **`char`** lar ketma-ketligi necha marta uchrashini aniqlab chop etilsin
 
-###### Input
+#### Input
 
 7 ta **`char`** belgi.
 
-###### Output
+#### Output
 
 ***`Array`*** da **`cat`** so'zining takrorlanish soni.
 
@@ -125,18 +125,18 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 ### Masala 6.
 
-###### Description
+##### Description
 
 > - 5 ta **`char`** belgi o'qib, ularni ***`array`*** ga saqlansin.
 > - 5 ta qatorda ***`array`*** ni namunadagidek aylantirib, chop eting:
     - 1 - qatorda kiritilgan ***`array`*** ning o'zi chop etiladi.
     - 2 - qatordan boshlab har safar bitta oldingi qatordagi chop etilgan yozuvning oxirgi elementi eng birinchi chop etiladi, qolgan elementlarni oldingi qatordagi bilan bir xil chop etiladi.
 
-###### Input
+#### Input
 
 5 ta **`char`** belgi.
 
-###### Output
+#### Output
 
   ***`Array`*** ni 5 ta qatorda, namunadagidek aylantirib chop eting.
   ***`Array`*** elementlarining joyi o'zgarmasligi, faqat chop etish jarayonida to'g'ri chaqirib olinishi kerak.
@@ -150,16 +150,16 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 ### Masala 7.
 
-###### Description
+##### Description
 
 > - 9 ta butun son o'qib, ularni 3x3 `array`ga saqlansin.
 > - Asosiy diagonaldagi (`\`) elementlarning yig'indisini hisoblab, chop etilsin.
 
-###### Input
+#### Input
 
 9 ta butun son.
 
-###### Output
+#### Output
 
   Asosiy diagonaldagi sonlar yi'g'indisi.
 
@@ -172,20 +172,20 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 ### Masala 8.
 
-###### Description
+##### Description
 
- 3 ta butun `sonlar` o'qilsin (`0 ≤ sonlar ≤ 5`).
+ >3 ta butun `sonlar` o'qilsin (`0 ≤ sonlar ≤ 5`).
  Shu sonlarni ifodalovchi ingliz tilidagi so'zlar 3 ta alohida qatorlarda, namunadagidek chop etilsin.
 
 > HINT: 2 o'lchamli `array`dan foydalanilsin.
 
 ![Jadval](8-8.png)
 
-###### Input
+#### Input
 
 3 ta butun `sonlar` (`0 ≤ sonlar ≤ 5`).
 
-###### Output
+#### Output
 
 Shu sonlarning ingliz tilidagi nomini alohida qatorlarda chop etilsin.
 
@@ -198,17 +198,17 @@ Shu sonlarning ingliz tilidagi nomini alohida qatorlarda chop etilsin.
 
 ### Masala 9.
 
-###### Description
+##### Description
 
 > - 2 o'lchamli ***`array`*** e'lon qilinsin.
 > - 3 ta talabaning *`Fizika`* va *`C dasturlash`* fanlaridan olgan ballarini o'qib, e'lon qilingan ***`array`*** ga joylansin.
 > - Har bir talabaning 2 ta fandan olgan umumiy ballini hisoblaydigan dastur tuzilsin.
 
-###### Input
+#### Input
 
 Uchala talabaning 2 ta fandan olgan ballarini bitta qatorda o'qing. Oldin bir talabaning 2 ta fan bo'yicha ballini, keyin boshqasinikini o'qilsin.
 
-###### Output
+#### Output
 
 Har bir talabaning umumiy balli alohida qatorlarda chop etilsin.
 
@@ -221,19 +221,19 @@ Har bir talabaning umumiy balli alohida qatorlarda chop etilsin.
 
 ### Masala 10.
 
-###### Description
+##### Description
 
 ### Achchiq Haqiqat
 
-90% birinchi kurs talabalari o'zlarini o'rtachadan yuqori baho oladi deb hisoblashadi. Achchiq haqiqatni aytish vaqti keldi
+>90% birinchi kurs talabalari o'zlarini o'rtachadan yuqori baho oladi deb hisoblashadi. Achchiq haqiqatni aytish vaqti keldi
 
-###### Input
+#### Input
 
  - Birinchi qatorda `testcase`lar soni `C` (1 ≤ C ≤ 1000).
  - Keyingi `C` ta qatorlarda studentlar soni `N` va ularning `N` ta baholari bitta qatorda ketma-ket kiritiladi. (1 ≤ N ≤ 1000).
  - Baholar 1 dan 100 gacha bo'lgan butun sonlar (1 ≤ baholar ≤100).
 
-###### Output
+#### Output
 
 Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizini nuqtadan keyin 3 ta raqam aniqlikda chop etilsin.
 
@@ -248,7 +248,7 @@ Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizin
 
 ### Soyabon
 
-###### Description
+##### Description
 
 >   Wahid amaki *Gluwa* kompaniyasida ishlaydi. U har kuni biznes uchrashuvlarga qatnashish uchun *Gluwa*ning **`N`** ta ko'p qavatli binolari o'rtasida u binodan bu binoga borib keladi. Avval u $B_0$ binoga boradi va **`M`** marta binodan binoga sayohat qiladi. $B_1$, $B_2$, $B_3$... BM - bu binolar orasidagi sayohatlar ketma-ketligini anglatadi.
 
@@ -256,7 +256,7 @@ Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizin
 
 >Keyingi binoga borishda soyabon shart bo'lmasa, shunchaki soyabonsiz harakatlanadi. Agar soyabon kerak bo'lsa va hozirgi bino javonida soyabonlar bo'lsa, shu soyabonlardan birini olib yo'lga chiqadi. Agar unga narigi binoga borishga soyabon kerak bo'lsayu, u turgan binoda soyabon yo'q bo'lsa, bino magazinidan soyabon sotib oladi. Soyabon bilan binoga kelsa va keyingi binoga borishda soyabon kerak bo'lmasa, qo'lidagi soyabonni shu bino javonida qoldiradi. Sizga binolar o'rtasidagi harakatlanish va soyabon zarurati haqida ma'lumot berilgan bo'lsa, binolarda birorta ham soyabon yo'q deb hisoblagan holda Wahid bugun nechta soyabon sotib olishini aniqlaydigan dastur yarating.
 
-###### Input
+#### Input
 
 Birinchi qatorda **`3`** ta butun sonlar ($N, M$, $B_0$) berilgan.
 
@@ -267,7 +267,7 @@ Birinchi qatorda **`3`** ta butun sonlar ($N, M$, $B_0$) berilgan.
 >  Keyingi $M$ qatorning har bir i - qatorida Wahid ketayotgan $B_i$ bino va soyabon ehtiyojini anglatuvchi $R_i$ kiritiladi. (1 ≤ $B_i$ ≤ $N$; 0 ≤ $R_i$ ≤ 1; $B_{i − 1}$ $!= B_i$)
     
 
-###### Output
+#### Output
 
 Sotib olingan soyabonlar sonini chop eting.
 
