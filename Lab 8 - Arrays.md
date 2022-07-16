@@ -344,3 +344,25 @@ Yuqoridagi shartlarni qanoatlantiradigan uchliklarni alohida qatorlarda orasida 
 >---
 > 1. $[-1,0,1,2,-1,-4] \Longrightarrow [[-1,-1,2],[-1,0,1]]$
 > 2. $[0] \Longrightarrow []$
+
+### Masala 14 - Qoldiqlar yig'indisi
+
+###### Description
+4 ta A, B, C, D butun sonlari berilgan. Birinchi sonni to'rtinchisiga, uchinchi sonni ikkinchisiga bo'lgandagi qoldiqlar yig'indisini toping.
+
+###### Input
+
+Bir qatorda 4 ta butun son A, B, C, D. (1 < A, B, C, D < 10000)
+
+###### Output
+Qoldiqlar yig'indisini chop eting.
+
+###### Namuna 1
+| Input | Output |
+| - | - |
+| `9 2 7 4` | `2` |
+
+###### Namuna 2
+| Input | Output |
+| - | - |
+| `17 4 15 5` | `5` |
