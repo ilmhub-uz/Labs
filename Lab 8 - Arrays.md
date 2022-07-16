@@ -344,3 +344,30 @@ Yuqoridagi shartlarni qanoatlantiradigan uchliklarni alohida qatorlarda orasida 
 >---
 > 1. $[-1,0,1,2,-1,-4] \Longrightarrow [[-1,-1,2],[-1,0,1]]$
 > 2. $[0] \Longrightarrow []$
+
+### Masala 14 - Ikki saralangan arraylarni birlashtiring
+
+###### Description
+
+>  Siz ikkita array o'qib olasiz.
+>  Ikkita arrayni birlashtirasiz.
+>  Birlashtirilgan arrayni o'sib borish tartibida sort qilib chop etasiz. 
+###### Input
+> - arraydagi elementlar soni (1 ≤ arr_num ≤ 50).
+> - arraydagi sonlar (-100 <= arr_val <= 100)
+    
+###### Output
+Birlashtirilgan arrayni o'sib borish tartibida sort qilib chop eting.
+
+###### Namuna 1
+| Input | Output |
+| - | - |
+| `1 2 4`<br>`1 3 4` |`1 1 2 3 4 4`|
+###### Namuna 2
+| Input | Output |
+| - | - |
+|  ` `<br>`0`<br>|`0`|
+###### Namuna 3
+| Input | Output |
+| - | - |
+| ` `<br>` `<br> |` `|
