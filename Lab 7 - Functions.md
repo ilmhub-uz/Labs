@@ -492,26 +492,26 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 
 Tinish belgilari, bo'sh kataklar (space) harflar soniga kiritilmasin.
 
-### Input
+#### Input
 Bir yoki undan ko'proq so'zlardan iborat matn
 <br>
 
-### Output
+#### Output
 Matndagi harflar sonini ifodalovchi son
 
 <br>
 
-#### Na'muna 1
+#### Namuna 1
 | Input  | Output |
 |-------|----  |
 |Hello world | 10|                                                
 
-#### Na'muna 2
+#### Namuna 2
 |Input| Output |
 |-----|--------|
 | Meva-chevalar: anor, olma  | 20 |
 
-#### Na'muna 3
+#### Namuna 3
 | Input  | Output |
 |-------|----  |
 | %$#! - , ?: &^ | 0|  
