@@ -841,7 +841,8 @@ Agar kiritilgan belgi alifbo harfi bo'lsa `1` ni, aks holda `0` ni chop eting.
 | `2`<br>`5 2 3`<br>`5 3 4` | `1S1B` |
   
 <br>
-######  Yordam
+
+###### Yordam
   
 ```cpp
 #include <iostream>
