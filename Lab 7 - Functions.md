@@ -483,7 +483,10 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 
 <br>
 
-## 17 - masala - Oxirgi so'z uzunligini top
+### 17 - masala
+
+### Oxirgi so'z uzunligini top
+
 <br>
 
  Parametr sifatida `string` qabul qiluvchi va `string`dagi harflar sonini topib, qaytaruvchi funksiya / metod yozing. Keyin o'sha funksiyadan foydalanib, `input`ga kiritilgan matndagi harflar sonini chop eting.
