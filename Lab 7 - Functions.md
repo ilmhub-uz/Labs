@@ -479,3 +479,45 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 | Input | Output |
 | - | - | 
 | `2`<br>`-5 1 12 1`<br>`7`<br>`1 1 8`<br>`-3 -1 1`<br>`2 2 2`<br>`5 5 1`<br>`-4 5 1`<br>`12 1 1`<br>`12  1 2`<br>`-5 1 5 1`<br>`1`<br>` 0 0 2` | `3`<br>`0` |
+
+
+<br>
+
+### Masala 16
+
+## Sekundlarni odam tushunadigan formatga o'tkazing
+
+> Quyidagi talablarga mos keluvchi metod / funksiya yozing:
+
+<br>
+
+* Parametr sifatida musbat son (sekundlar) qabul qilsin va ularni odamga tushunarli vaqt formati (`HH:MM:SS`)ga o'tkazib qaytarsin.
+* Maksimum qabul qilinuvchi qiymat `99:59:59` bo'lsin, bu qiymatdan ortiq sekundlar kiritilganda `Error` xabarini qaytarsin.
+* Manfiy son yoki `string`, `char` kabi yaroqsiz ma'lumot kiritilsa, `Error` xabarini qaytarsin.
+
+<br>
+
+### Yuqoridagi metod / funksiyadan foydalanib input qilinga son (soniyalar)ni `HH:MM:SS` shaklida qaytarib chop eting.
+
+<br>
+
+#### Input
+```
+Soniyalar
+```
+#### Output
+```
+HH:MM:SS
+```
+
+<br>
+
+#### Sample input 1
+| Input  | Output |
+|-------|----  |
+|350 | 00:05:50|                                                
+
+#### Sample input 
+|Input| Output |
+|-----|--------|
+| 459999 | Error |
