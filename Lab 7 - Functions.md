@@ -483,37 +483,35 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 
 <br>
 
-## Oxirgi so'z uzunligini top
+## 17 - masala - Oxirgi so'z uzunligini top
 <br>
 
- `String`dagi harflar sonini topib, qaytaruvchi funksiya / metod yozing va o'sha funksiyadan foydalanib, `input`ga kiritilgan `string` dagi harflar sonini chop eting.
+ Parametr sifatida `string` qabul qiluvchi va `string`dagi harflar sonini topib, qaytaruvchi funksiya / metod yozing. Keyin o'sha funksiyadan foydalanib, `input`ga kiritilgan matndagi harflar sonini chop eting.
 
 <br>
 
-> Tinish belgilari, bo'shliq (space) harflar soniga kiritilmasin.
+> Tinish belgilari, bo'sh kataklar (space) harflar soniga kiritilmasin.
 
 ### Input
-```
 Bir yoki undan ko'proq so'zlardan iborat matn
-```
+<br>
+
 ### Output
-```
 Matndagi harflar sonini ifodalovchi son
-```
 
 <br>
 
-### Sample input 1
+### Na'muna 1
 | Input  | Output |
 |-------|----  |
 |Hello world | 10|                                                
 
-### Sample input 
+### Na'muna 2
 |Input| Output |
 |-----|--------|
 | Meva-chevalar: anor, olma  | 20 |
 
-### Sample input 1
+### Na'muna 3
 | Input  | Output |
 |-------|----  |
 | %$#! - , ?: &^ | 0|  
