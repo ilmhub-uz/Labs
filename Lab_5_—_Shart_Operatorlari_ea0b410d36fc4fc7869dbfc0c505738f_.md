@@ -4,37 +4,37 @@
 ###  Masala 1
   
   
-#####  Description
+######  Description
     
 >Bitta butun son `N` ni o'qing va quyidagicha chop eting
   
-> - Agar `N < 0` bo'lsa  ⇒  **ichkarida o'yna** deb chop eting.
-> - Agar `0 ≤ N < 40` bo'lsa  ⇒  **tashqarida o'yna** deb chop eting.
-> - Agar `N ≥ 40` bo'lsa  ⇒  **ichkarida o'yna** deb chop eting.
+> - Agar `N < 0` bo'lsa  ⇒  ichkarida o'yna deb chop eting.
+> - Agar `0 ≤ N < 40` bo'lsa  ⇒  tashqarida o'yna deb chop eting.
+> - Agar `N ≥ 40` bo'lsa  ⇒  ichkarida o'yna deb chop eting.
   
-####  Input
+###### Input
   
   
 Bitta butun son `N` .
   
-####  Output
+###### Output
   
   
-Kiritilgan sonning qiymatiga qarab **ichkarida o'yna** yoki **tashqarida o'yna** matnlaridan biri.
+Kiritilgan sonning qiymatiga qarab ichkarida o'yna yoki tashqarida o'yna matnlaridan biri.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `-1` | `ichakarida o'yna` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `0` | `tashqarida o'yna` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -45,34 +45,34 @@ Kiritilgan sonning qiymatiga qarab **ichkarida o'yna** yoki **tashqarida o'yna**
 ### Masala 2
   
   
-#####  Description
+######  Description
   
   
 >Ikkita butun sonlar `N` va `M`larni o'qing. Agar ulardan biri boshqasining kvadratiga teng bo'lsa namunadagidek chop eting. Aks holda, **none** deb chop eting.
   
-####  Input
+###### Input
   
   
 Ikkita butun `N` va `M` sonlar.
   
-####  Output
+###### Output
   
   
 Namunadagidek tenglama yoki **none** so'zi.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `4 2`  | `2*2=4` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
 | `3 9` | `3*3=9` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -83,34 +83,34 @@ Namunadagidek tenglama yoki **none** so'zi.
 ### Masala 3
   
   
-#####  Description
+######  Description
   
   
 >Ikkita butun son o'qing va kattasini chop eting.
   
-####  Input
+###### Input
   
   
 2 ta butun sonlar.
   
-####  Output
+###### Output
   
   
 Kiritilgan sonlarning kattarog'i.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `2 3` | `3` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `-5 -9` | `-5` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -121,30 +121,30 @@ Kiritilgan sonlarning kattarog'i.
 ### Masala 4
   
   
-#####  Description
+######  Description
   
   
 >Uchta butun sonlar o'qing. Kiritilgan sonlarning eng kattasini va eng kichigini chop eting.
   
-> - *Maksimum* va *minimum* qiymatlarning orasida ***space*** bo'lishi, *minimum* qiymatdan keyin esa bo'lmasligi kerak.
+> - *Maksimum* va *minimum* qiymatlarning orasida **space** bo'lishi, *minimum* qiymatdan keyin esa bo'lmasligi kerak.
   
-####  Input
+###### Input
   
   
 3 ta butun sonlar.
   
-####  Output
+###### Output
   
   
 Kiritilgan sonlarning eng kattasi va eng kichigini orasida ***space*** bilan chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `2 3 4` | `4 2` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
@@ -155,42 +155,42 @@ Kiritilgan sonlarning eng kattasi va eng kichigini orasida ***space*** bilan cho
 ### Masala 5
   
   
-#####  Description
+######  Description
   
   
 >Bitta musbat son o'qing va songa qarab alifbo harflarini quyidagicha chop eting:
   
-> - `2`, `3`, va `5` larning har biriga bo'linsa  ⇒  **A**
-> - Faqat `2` va `3` larga bo'linsa  ⇒  **B**
-> - Faqat `2` va `5` larga bo'linsa  ⇒  **C**
-> - Faqat `3` va `5` larga bo'linsa  ⇒  **D**
-> - `2`, `3`, va `5` larning faqat bittasiga bo'linsa  ⇒  **E**
-> - `2`, `3`, va `5` larning hech biriga bo'linmasa  ⇒  **N**
+> - `2`, `3`, va `5` larning har biriga bo'linsa  ⇒  `A`
+> - Faqat `2` va `3` larga bo'linsa  ⇒  `B`
+> - Faqat `2` va `5` larga bo'linsa  ⇒  `C`
+> - Faqat `3` va `5` larga bo'linsa  ⇒  `D`
+> - `2`, `3`, va `5` larning faqat bittasiga bo'linsa  ⇒  `E`
+> - `2`, `3`, va `5` larning hech biriga bo'linmasa  ⇒  `N`
   
-####  Input
+###### Input
   
   
 Bitta butun musbat son `N` .
   
-####  Output
+###### Output
   
   
 Bo'linish-bo'linmasligiga ko'ra chop etlishi so'ralgan tegishli alifbo harfi (yuqoridagi jadval bo'yicha).
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `30` | `A` |
   
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `6` | `B` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -201,43 +201,43 @@ Bo'linish-bo'linmasligiga ko'ra chop etlishi so'ralgan tegishli alifbo harfi (yu
 ### Masala 6
   
   
-#####  Description
+######  Description
   
   
 >Yilni anglatuvchi bitta butun musbat son `N`ni o'qing va kabisa yili yoki oddiy yil ekanligini aniqlaydigan dastur tuzing.
   
-> - Kiritilgan yil kabisa yili bo'ladi, **agar**:
+> - Kiritilgan yil kabisa yili bo'ladi, agar:
 >   - 4 ga bo'linsa va 100 ga bo'linmasa;
 >   - 4 va 400 ga bo'linsa (garchi 100 ga bo'linsa ham).
-> - Kiritilgan yil kabisa yili bo'lmaydi, **agar**:
+> - Kiritilgan yil kabisa yili bo'lmaydi, agar:
 >   - 4 ga bo'linmasa;
 >   - 4 va 100 ga bo'linsa, lekin, 400 ga bo'linmasa.
   
-####  Input
+###### Input
   
   
 Yilni anglatuvchi bitta butun musbat son `N` (`1 ≤ N ≤ 4000`).
   
-####  Output
+###### Output
   
   
 Agar kiritilgan yil kabisa yili bo'lsa **leap year** deb, aks holda **normal year** deb chop eting.
   
 ![Lab%205%20%E2%80%94%20Shart%20Operatorlari%20ea0b410d36fc4fc7869dbfc0c505738f/Untitled.png](Lab%205%20%E2%80%94%20Shart%20Operatorlari%20ea0b410d36fc4fc7869dbfc0c505738f/Untitled.png )
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `4` | `leap year` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `1900` | `normal year` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -249,44 +249,44 @@ Agar kiritilgan yil kabisa yili bo'lsa **leap year** deb, aks holda **normal yea
   
 #####  **Sonni Tahmin qil o'yini**
   
-##### Desctription  
+###### Description  
   
 > - 1-qatorda bitta butun son `N` .
 > - 2-qatordan boshlab tahmin qilish boshlanadi(faraz qiling siz to'g'ri javobni bilmaysiz).
 
 > - To'g'ri javobni topishga ko'pi bilan 2 ta imkoniyat beriladi.
-> - 2-qatorda tahminni bildiruvchi `M` soni kiritiladi. Agar `M` soni `N` ga teng bo'lsa **Correct** deb chop etilsin.
-> - Agar `M` soni `N`dan kichik bo'lsa **UP** deb chop etilsin.
-> - Agar `M` soni `N`dan katta bo'lsa **DOWN** deb chop etilsin.
-> - Agar birinchi urinishdan so'ng to'g'ri javob topilmasa `M` ni yana o'qilsin va yuqorida ta'kidlangan shartlarga ko'ra **Correct**, **UP**, yoki **DOWN** lardan birini chop etilsin va o'yin tugatilsin.
+> - 2-qatorda tahminni bildiruvchi `M` soni kiritiladi. Agar `M` soni `N` ga teng bo'lsa `Correct` deb chop etilsin.
+> - Agar `M` soni `N`dan kichik bo'lsa `UP` deb chop etilsin.
+> - Agar `M` soni `N`dan katta bo'lsa `DOWN` deb chop etilsin.
+> - Agar birinchi urinishdan so'ng to'g'ri javob topilmasa `M` ni yana o'qilsin va yuqorida ta'kidlangan shartlarga ko'ra `Correct`, `UP`, yoki `DOWN` lardan birini chop etilsin va o'yin tugatilsin.
   
-####  Input
+###### Input
   
   
 - O'yin javobi sifatida bitta butun son `N`.
 - Birinchi tahmin sifatida `M` butun soni.
 - Agar `M` soni `N`ga teng bo'lmasa `M` soni yana qayta o'qiladi. 
   
-####  Output
+###### Output
   
   
-- Birinchi tahmin to'g'ri bo'lsa **Correct** deb chop eting va o'yinni tugating.
-- Birinchi taxmin javobdan kichik bo'lsa **UP** deb, aks holda **DOWN** deb chop eting.
+- Birinchi tahmin to'g'ri bo'lsa `Correct` deb chop eting va o'yinni tugating.
+- Birinchi taxmin javobdan kichik bo'lsa `UP` deb, aks holda `DOWN` deb chop eting.
 - Agar bitta urinishda javob topilmasa birinchi va ikkinchi qadamlarni yana bir marta takrorlang va o'yinni tugating.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `5 4 5` | `UP`<br>`Correct` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `5 4 7` | `UP`<br>`DOWN` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -297,7 +297,7 @@ Agar kiritilgan yil kabisa yili bo'lsa **leap year** deb, aks holda **normal yea
 ### Masala 8
   
   
-#####  Description
+######  Description
   
   
 >`char` turdagi bitta belgi `c`ni o'qing. 
@@ -317,19 +317,19 @@ Bitta belgi `c`.
 - Belgi kichik harf bo'lsa, kattasini chop eting.
 - Belgi harf bo'lmasa, **none** deb chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `A` | `a` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `t` | `T` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -340,7 +340,7 @@ Bitta belgi `c`.
 ### Masala 9
   
   
-#####  Description
+######  Description
   
   
 > - To'g'ri javobni anglatuvchi 3 ta butun sonlarni o'qing. Har bir son 0~9 oraliqda bo'lsin.
@@ -360,32 +360,32 @@ Bitta belgi `c`.
   
 `strike` va `ball`lar sonini *x***S** *y***B** ko'rinishida chop eting. (`x` o'rnida **strike**lar soni, `y` o'rnida **ball**lar soni).
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `5 2 3`<br>`5 3 4` | **`1S1B`** |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `5 2 3`<br>`5 2 3` | **`3S0B`** |
   
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
 | `5 2 3`<br>`2 3 5` | **`0S3B`** |
   
-######  Namuna 4
+###### Namuna 4
   
 | Input | Output |
 | - | - |
 | `1 1 1`<br>`1 0 0` | **`1S0B`** |
   
-######  Namuna 5
+###### Namuna 5
   
 | Input | Output |
 | - | - |
@@ -396,31 +396,31 @@ Bitta belgi `c`.
 ### Masala 10
   
   
-#####  Description
+######  Description
   
   
 >Bitta operator va ikkita butun musbat sondan iborat ifodani bitta qatorda o'qing va shu ifodaning natijasini chop eting.
   
-> - butun son, operator, butun son ketma-ketligida, orasida ***space*** bilan ajratilgan holda kiritiladi.
+> - butun son, operator, butun son ketma-ketligida, orasida **space** bilan ajratilgan holda kiritiladi.
 > - Faqat `+` yoki `-` operatorlari ishlatilsin, boshqa hech qanday operatorlarni ishlatish mumkin emas!
   
-####  Input
+###### Input
   
   
 `son1 +/- son2` ko'rinishidagi ifoda.
   
-####  Output
+###### Output
   
   
 Kiritilgan ifodaning javobini chop eting.
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
 | `7 + 12` | `19` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -442,31 +442,31 @@ Kiritilgan ifodaning javobini chop eting.
   
 >M tanlangan ichimlik uchun kiritilgan summani anglatadi. (`M` 100 ga karrali bo'ladi, deb faraz qilinsin). **Vending machine** faqat 500 va 100 so'mlik kupyuralarni qaytara oladi, xolos. Tanlangan ichimlik nomi, va shu  ichimlik uchun berilgan qaytim pullarning sonini chop etadigan dastur tuzing.
   
-####  Input
+###### Input
   
   
 - Birinchi qatorda ichimlik raqamini anglatuvchi bitta `N` soni (1≤ N ≤ 3).
 - Ikkinchi qatorda shu tanlangan ichimlik uchun kiritilgan pul summasi.
   
-####  Output
+###### Output
   
   
 - Birinchi qatorda tanlangan ichimlik nomi.
-- Ikkinchi qatorda, avval 500 so'mlikdan nechta pul qaytarilishi, keyin 100 so'mlik puldan nechta qaytarishini ifodalovchi ikkita `son`ni orasida ***space*** bilan chop eting.
+- Ikkinchi qatorda, avval 500 so'mlikdan nechta pul qaytarilishi, keyin 100 so'mlik puldan nechta qaytarishini ifodalovchi ikkita `son`ni orasida **space** bilan chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `3 1000` | `Lemon Tea`<br>`1 2` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `1 1000` | `Americano`<br>`1 0` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -477,29 +477,29 @@ Kiritilgan ifodaning javobini chop eting.
 ### Masala 12
   
   
-#####  Description
+######  Description
   
   
 >Bitta butun son kiriting va shu sonning juft yoki toq ekanini aniqlang.
   
-####  Input
+###### Input
   
   
 Bitta butun son `N`.
   
-####  Output
+###### Output
   
   
 - agar kiritilgan son juft bo'lsa `even` deb chop eting
 - agar kiritilgan son toq bo'lsa `odd` deb chop eting
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `1` | `odd` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
@@ -510,24 +510,24 @@ Bitta butun son `N`.
 ### Masala 13
   
   
-#####  Description
+######  Description
   
   
->**2** ta son o'qing. Agar ikkala sonning yig'indisi **100** dan katta bo'lsa, `true` deb chop eting. Aks holda `false` deb chop eting.
+>`2` ta son o'qing. Agar ikkala sonning yig'indisi `100` dan katta bo'lsa, `true` deb chop eting. Aks holda `false` deb chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `1 100` | `true` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `99 1` | `false` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -538,10 +538,10 @@ Bitta butun son `N`.
 ### Masala 14
   
   
-#####  Description
+######  Description
   
   
->**3** ta son o'qing. Agar shu sonlar Pifagor sonlari bo'lsa, `true` deb chop eting. Aks holda `false` deb chop eting.
+>`3` ta son o'qing. Agar shu sonlar Pifagor sonlari bo'lsa, `true` deb chop eting. Aks holda `false` deb chop eting.
   
 > - Pifagor sonlari deb 2 ta sonning kvadratlari yig'indisi 3-son kvadratiga teng bo'lgan sonlarga aytiladi.
 > - **a**, **b** va **c** Pifagor sonlari bo'lish uchun ular quyidagi shartlardan birini qoniqtirishi kerak:
@@ -549,19 +549,19 @@ Bitta butun son `N`.
 >   - <img src="https://latex.codecogs.com/gif.latex?a^2+c^2=b^2"/>
 >   - <img src="https://latex.codecogs.com/gif.latex?b^2+c^2=a^2"/>
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `3 4 5` | `true` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `5 4 3` | `true` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -572,7 +572,7 @@ Bitta butun son `N`.
 ### Masala 15
   
   
-#####  Description
+######  Description
   
   
 >Bitta belgi (`char`) o'qing. Agar u belgi arifmetik operator bo'lsa `true` deb chop eting. Aks holda `false` deb chop eting.
@@ -582,25 +582,25 @@ Bitta butun son `N`.
   
 >✅ **`switch()`** *kontroli orqali ishlansin!*
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `+` | `true` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `-` | `true` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
 | `%` | `true` |
   
-######  Namuna 4
+###### Namuna 4
   
 | Input | Output |
 | - | - |
@@ -611,7 +611,7 @@ Bitta butun son `N`.
 ### Masala 16
   
   
-#####  Description
+######  Description
    
 >Bitta son o'qing. Agar u son `0` va `9` oraliqda bo'lsa, o'sha sonni o'zbekcha chop eting. Aks holda `boshqa` deb chop eting.
   
@@ -619,19 +619,19 @@ Bitta butun son `N`.
   
 >✅ **switch()** *kontroli orqali ishlansin!*
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `1` | `bir` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `8` | `sakkiz` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -642,7 +642,7 @@ Bitta butun son `N`.
 ### Masala 17
   
   
-#####  Description
+######  Description
   
   
 >Wahid amaki har kuni budilnik ovoziga uyg'onadilar. Budilnik ovozini eshitgach *yana-biroz, yana-biroz* 😴 deb doim budilnik ovozidan keyin ham bir qancha vaqtdan keyin o'rinlaridan turadilar. Shuning uchun Wahid amaki doim vaqtida o'rindan turish uchun yangi yechim topdilar. Endi budilnikni turishlari kerak bo'lgan vaqtdan 45 minut avvalroqqa to'g'rilab qo'yadigan bo'ldilar.
@@ -650,23 +650,23 @@ Bitta butun son `N`.
 > - Wahid amakining turishi kerak bo'lgan vaqti ko'rsatilsa, ular budilnikni nechaga to'g'rilashlari kerakligini aniqlaydigan dastur tuzing.
 > - Kun `00:00` dan boshlanadi va `23:59` da yakunlanadi.
   
-####  Input
+###### Input
   
   
-Wahid amakining turishi kerak bo'lgan vaqtini anglatuvchi ikki butun sonlar **S** va **M** (`0 ≤ S ≤ 23`, `0 ≤ M ≤ 59`).
+Wahid amakining turishi kerak bo'lgan vaqtini anglatuvchi ikki butun sonlar `S` va `M` (`0 ≤ S ≤ 23`, `0 ≤ M ≤ 59`).
   
-####  Output
+###### Output
   
   
 Budilnik to'g'rilanishi kerak bo'lgan vaqtning soat va minutini bir qatorda, orasida **space**larsiz, ortiqcha nollarsiz chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `10 10` | `9 25` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
@@ -677,40 +677,40 @@ Budilnik to'g'rilanishi kerak bo'lgan vaqtning soat va minutini bir qatorda, ora
 ### Masala 18
   
   
-#####  Description
+######  Description
   
   
 >Imtihon natijasini anglatuvchi bitta butun musbat son `N`ni o'qing.
-> Agar **N** soni 
-> - **90** dan katta yoki teng bo'lsa ⇒ **`A`** 
-> - **80** dan katta yoki teng bo'lsa ⇒ **`B`** 
-> - **70** dan katta yoki teng bo'lsa ⇒ **`C`** 
-> - **60** dan katta yoki teng bo'lsa ⇒ **`D`** 
-> - **60** dan kichik bo'lsa **`F`** deb chop eting.
+> Agar `N` soni 
+> - `90` dan katta yoki teng bo'lsa ⇒ `A` 
+> - `80` dan katta yoki teng bo'lsa ⇒ `B` 
+> - `70` dan katta yoki teng bo'lsa ⇒ `C` 
+> - `60` dan katta yoki teng bo'lsa ⇒ `D` 
+> - `60` dan kichik bo'lsa `F` deb chop eting.
   
-####  Input
+###### Input
   
   
-Bitta butun musbat son **`N`** (`1 ≤ N ≤ 100`).
+Bitta butun musbat son `N` (`1 ≤ N ≤ 100`).
   
-####  Output
+###### Output
   
 Jadvaldagi kiritilgan songa mos harf chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `100` | `A` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `79` | `C` |
   
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -729,30 +729,30 @@ Jadvaldagi kiritilgan songa mos harf chop eting.
   
 >✅ Taksi narxini **1000** so'mdan kam laxtak qismini yaxlitlaydigan dastur tuzing. Bu dastur mijozlar va haydovchilar orasidagi tushunmovchilikka barham beradi va oradagi ishonchni qayta tiklaydi.
   
-####  Input
+###### Input
   
   
-Taksi yo'l haqini ifodalovchi bitta butun musbat son **`N`** (`3000 ≤ N ≤ 1000000`).
+Taksi yo'l haqini ifodalovchi bitta butun musbat son `N` (`3000 ≤ N ≤ 1000000`).
   
-####  Output
+###### Output
   
   
 Berilgan sonni **minglar** xonasigacha yaxlitlab chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `35800` | `36000` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `29300` | `29000` |
   
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
@@ -763,40 +763,40 @@ Berilgan sonni **minglar** xonasigacha yaxlitlab chop eting.
 ### Masala 20
   
   
-#####  Description
+######  Description
   
   
 >Bitta belgi o'qib, shu belgini alifbo harfi, yoki boshqa belgi ekanligini aniqlaydigan dastur tuzing.
   
-####  Input
+###### Input
   
   
 `ASCII` jadvalida mavjud bitta belgi.
   
-####  Output
+###### Output
   
   
 Agar kiritilgan belgi alifbo harfi bo'lsa `1` ni, aks holda `0` ni chop eting.
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `K` | `1` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
 | `t` | `1` |
   
-######  Namuna 3
+###### Namuna 3
   
 | Input | Output |
 | - | - |
 | `#` | `0` |
   
-######  Namuna 4
+###### Namuna 4
   
 | Input | Output |
 | - | - |
@@ -807,34 +807,34 @@ Agar kiritilgan belgi alifbo harfi bo'lsa `1` ni, aks holda `0` ni chop eting.
 ### Masala 21
   
   
-#####  Description
+######  Description
   
   
 >Masala sonini anglatuvchi `n` butun sonini o'qing. (`1 ≤ n ≤ 20`)
   
 >- yuqoridagi songa mos keluvchi masalani ishga tushiring
   
-####  Input
+###### Input
   
   
 - birinchi qatorda masala soni;
 - ikkinchi qatordan boshlab o'sha songa mos keladiga masalaga kerak bo'ladigan inputlar kiritilsin.
 - agar kiritilgan sonli masala mavjud bo'lmasa, **ERROR** deb chop eting.
   
-####  Output
+###### Output
   
   
 - tanlangan raqamdagi masalani shartida nimalarni chop etish kerak bo'lsa, o'shalarni chop eting va dasturni yakunlang.
 - ✅`switch()` operatoridan foydalanilsin;
 - oldin yozilgan funksiyalarni o'z o'rnida chaqirib olish kerak: `main_1();`, `main_1();`, ... .
   
-######  Namuna 1
+###### Namuna 1
   
 | Input | Output |
 | - | - |
 | `1`<br>`2 3 4` | `4 2` |
   
-######  Namuna 2
+###### Namuna 2
   
 | Input | Output |
 | - | - |
