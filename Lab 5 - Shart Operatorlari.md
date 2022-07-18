@@ -1,8 +1,6 @@
 ##  Lab 5 —  Shart Operatorlari
   
-  
 ###  Masala 1
-  
   
 ######  Description
     
