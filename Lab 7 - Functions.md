@@ -479,3 +479,25 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 | Input | Output |
 | - | - | 
 | `2`<br>`-5 1 12 1`<br>`7`<br>`1 1 8`<br>`-3 -1 1`<br>`2 2 2`<br>`5 5 1`<br>`-4 5 1`<br>`12 1 1`<br>`12  1 2`<br>`-5 1 5 1`<br>`1`<br>` 0 0 2` | `3`<br>`0` |
+
+### Masala 16 - Qoldiqlar yig'indisi
+
+###### Description
+4 ta A, B, C, D butun sonlari berilgan. Birinchi sonni to'rtinchisiga, uchinchi sonni ikkinchisiga bo'lgandagi qoldiqlar yig'indisini toping.
+
+###### Input
+
+Bir qatorda 4 ta butun son A, B, C, D. (1 < A, B, C, D < 10000)
+
+###### Output
+Qoldiqlar yig'indisini chop eting.
+
+###### Namuna 1
+| Input | Output |
+| - | - |
+| `9 2 7 4` | `2` |
+
+###### Namuna 2
+| Input | Output |
+| - | - |
+| `17 4 15 5` | `5` |
