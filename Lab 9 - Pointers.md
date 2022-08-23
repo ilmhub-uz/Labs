@@ -540,3 +540,28 @@ Uchinchi arrayni chop etilsin.
 
 
 ---
+
+### Masala 18
+
+##### Description
+
+>Foydalanuvchi tomonidan int tipida uchta butun son oqilsin(kiritlayotgan sonlar 0 dan katta va 100 dan kichkina bolishi shart), agar oqilgan sonlardan ikkitasini yigindisi uchinchisiga teng bolsa True deb cho'p etilsin, aks holda False desin.
+
+#### Input
+
+int, int
+
+#### Output
+
+bool
+
+#### Namuna 1
+| Input | Output |
+| - | - | 
+| `11, 22, 33` | `True` |
+
+
+#### Namuna 2
+| Input | Output |
+| - | - | 
+| `10, 21, 42` | `False` |
