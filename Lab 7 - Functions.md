@@ -479,3 +479,39 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 | Input | Output |
 | - | - | 
 | `2`<br>`-5 1 12 1`<br>`7`<br>`1 1 8`<br>`-3 -1 1`<br>`2 2 2`<br>`5 5 1`<br>`-4 5 1`<br>`12 1 1`<br>`12  1 2`<br>`-5 1 5 1`<br>`1`<br>` 0 0 2` | `3`<br>`0` |
+
+<br>
+
+### 17 - masala - Matndagi harflar sonini toping
+
+<br>
+
+Parametr sifatida `string` qabul qiluvchi va `string`dagi harflar sonini topib, qaytaruvchi funksiya / metod yozing. Keyin o'sha funksiyadan foydalanib, `input`ga kiritilgan matndagi harflar sonini chop eting.
+
+<br>
+
+Tinish belgilari, bo'sh kataklar (space) harflar soniga kiritilmasin.
+
+#### Input
+Bir yoki undan ko'proq so'zlardan iborat matn
+<br>
+
+#### Output
+Matndagi harflar sonini ifodalovchi son
+
+<br>
+
+#### Namuna 1
+| Input  | Output |
+|-------|----  |
+|Hello world | 10|                                                
+
+#### Namuna 2
+|Input| Output |
+|-----|--------|
+| Meva-chevalar: anor, olma  | 20 |
+
+#### Namuna 3
+| Input  | Output |
+|-------|----  |
+| %$#! - , ?: &^ | 0|  
