@@ -221,7 +221,20 @@ Yilni anglatuvchi bitta butun musbat son `N` (`1 ≤ N ≤ 4000`).
   
 Agar kiritilgan yil kabisa yili bo'lsa **leap year** deb, aks holda **normal year** deb chop eting.
   
-![Lab%205%20%E2%80%94%20Shart%20Operatorlari%20ea0b410d36fc4fc7869dbfc0c505738f/Untitled.png](Lab%205%20%E2%80%94%20Shart%20Operatorlari%20ea0b410d36fc4fc7869dbfc0c505738f/Untitled.png )
+```mermaid
+graph LR;
+    A[son] --> B{4ga bo'linadimi?}:::blue
+    B -- Yo'q -->C{{Oddiy yil}}:::red
+    B -- Ha --> D{100ga bo'linadimi?}:::blue
+    D -- Yo'q --> E{{Kabisa yili}}:::green
+    D -- Ha --> F{400ga bo'linadimi?}:::blue
+    F -- Ha --> G{{Kabisa yili}}:::green
+    F -- Yo'q --> H{{Oddiy yil}}:::red
+
+    classDef red fill:#f33
+    classDef green fill:#5a5
+    classDef blue fill:#337
+```
   
 ###### Namuna 1
   
