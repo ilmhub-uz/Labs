@@ -2,7 +2,7 @@
 
 ### Masala 1.
 
-###### Description
+##### Description
 
 > - `int` turidagi bitta butun son `x` va `int` turidagi bitta `px` ***`pointer`*** e'lon qilinsin. `px` ga `x`ning adresi o'zlashtirilsin.
 
@@ -10,11 +10,11 @@
 > - `scanf()` va `px` ***`pointer`*** yordamida `x` ning qiymatini yangilansin.
 > - `x`ning o'zgartirilgan qiymatini `px` ***`pointer`*** dan foydalanib chop etilsin.
 
-###### Input
+#### Input
 
 2 ta butun son (`x`ga avval bitta butun son o'qib, keyin uning qiymatini `px` pointer yordamida yangilansin).
 
-###### Output
+#### Output
 
 `x`ning yangilangan qiymatini `px` ***`pointer`*** yordamida chop etilsin.
 
@@ -25,9 +25,9 @@
 
 ---
 
-### Masala 2.
+### Masala 2
 
-###### Description
+##### Description
 
 > - Ikkita butun `N` va `M` butun musbat sonlar o'qilsin. `N`dan `M`gacha bo'lgan sonlar yig'indisini hisoblab, chop etadigan dastur tuzilsin.
 
@@ -40,11 +40,11 @@
     >- Oddiy o'zgaruvchining manzilini ***`pointer`*** o'zgaruvchiga saqlansin.
     >- Oddiy o'zgaruvchiga murojaat qilish uchun ***`pointer`*** o'zgaruvchidan foydalanilsin.
 
-###### Input
+#### Input
 
 2 ta butun son `N` va `M`.
 
-###### Output
+#### Output
 
 `N` dan `M`gacha yig'indini chop etilsin. `N` ham, `M` ham yig'indiga qo'shilsin.
 
@@ -61,9 +61,9 @@
 
 ---
 
-### Masala 3.
+### Masala 3
 
-###### Description
+##### Description
 
 > - Hajmi 100 ga teng bo'lgan ***`array`***  e'lon qilinsin. So'ngra ***`array`*** ga `N` ta butun son o'qilsin. Keyin, foydalanuvchidan bitta indeks o'qilsin. 
 
@@ -72,26 +72,26 @@
 > - ***`Array`*** dan boshqa barcha o'zgaruvchilarga faqatgina ***`pointer`*** o'zgaruvchilar orqali murojaat qilinsin.
 > - To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
 
-###### Input
+#### Input
 
 - Birinchi qatorda musbat `N` butun soni (1 ≤ N ≤ 100);
 - Ikkinchi qatorda ***`array`*** ga N ta qiymat o'qilsin.
 - Uchunchi qatorda `a` index o'qilsin. (0 ≤ a ≤ N).
 
-###### Output
+#### Output
 
 Arrayning `a` indeksdagi elementini chop etilsin.
 
-#### Namuna Input 1
+#### Namuna 1
 | Input | Output |
 | - | - |   
 | `5` <br> `2 4 7 9 3` <br>`3` | `9` |
 
 ---
 
-### Masala 4.
+### Masala 4
 
-###### Description
+##### Description
 
 > - Hajmi 100 ga teng bo'lgan ***`array`***  e'lon qilinsin. So'ngra ***`array`*** ga `N` ta butun son o'qilsin.
 
@@ -100,12 +100,12 @@ Arrayning `a` indeksdagi elementini chop etilsin.
 > - ***`Array`*** dan boshqa barcha o'zgaruvchilarga ***`pointer`*** o'zgaruvchilar orqali murojaat qilinsin.
 > - To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
 
-###### Input
+#### Input
 
 - Birinchi qatorda musbat `N` butun soni (`1 ≤ N ≤ 100`);
 - Ikkinchi qatorda ***`array`*** ga N ta qiymat o'qilsin.
 
-###### Output
+#### Output
 
 ***`Array`*** ning eng katta va eng kichik elementlarini chop etilsin.
 
@@ -118,20 +118,20 @@ Arrayning `a` indeksdagi elementini chop etilsin.
 ---
 
 
-### Masala 5.
+### Masala 5
 
-###### Description
+##### Description
 
 > - `#` kiritilmaguncha maksimum 20 ta belgi o'qilsin. `#` dan oldin kiritilgan elementlarni ***`pointer`*** lar orqali teskari tartibda chop etilsin.
 
 > - ***`Array`*** dan boshqa barcha o'zgaruvchilarga ***`pointer`*** o'zgaruvchilar orqali murojaat qilinsin.
 > - To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
 
-###### Input
+#### Input
 
 Maksimum 20 ta ***`space`*** larsiz bir qator belgilar.
 
-###### Output
+#### Output
 
 `#` kiritilgunga qadar o'qilgan belgilarni teskari tartibda chop etilsin.
 
@@ -148,9 +148,9 @@ Maksimum 20 ta ***`space`*** larsiz bir qator belgilar.
 
 ---
 
-### Masala 6.
+### Masala 6
 
-###### Description
+##### Description
 
 > - 10 ta alifbo harflarini o'qilsin. ***`Pointer`*** yordamida eng ko'p uchragan harfni va uning necha marta uchraganini chop etilsin. Agar eng ko'p uchragan 2 yoki undan ko'proq harflar mavjud bo'lsa, eng birinchi qaysi biri maksimumga erishgan bo'lsa, o'shani chop eting.
 
@@ -158,11 +158,11 @@ Maksimum 20 ta ***`space`*** larsiz bir qator belgilar.
 > - To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
 > - **`Loop`** ichida o'zgaruvchilarning faqatgina manzilidan foydalanib ishlansin.
 
-###### Input
+#### Input
 
 10 ta ***`space`*** larsiz bir qator belgilar.
 
-###### Output
+#### Output
 
 Eng ko'p uchragan harfni va necha marta takrorlanganligini orasida ***`space`***  bilan chop etilsin.
 
@@ -173,9 +173,9 @@ Eng ko'p uchragan harfni va necha marta takrorlanganligini orasida ***`space`***
 
 ---
 
-### Masala 7.
+### Masala 7
 
-###### Description
+##### Description
 
 > - Hajmi 3 ga teng bo'lgan ***`array`***  e'lon qilinsin. Foydalanuvchidan 3 ta butun son o'qib, kiritilgan qiymatlar bilan arrayni to'ldirilsin.  ***`Array`*** ning o'rtancha qiymatga ega bo'lgan elementini chop etilsin.
 
@@ -186,11 +186,11 @@ Eng ko'p uchragan harfni va necha marta takrorlanganligini orasida ***`space`***
     >- To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
     >- **`Loop`** ichida o'zgaruvchilarning faqatgina manzilidan foydalanib ishlansin.
 
-###### Input
+#### Input
 
 3 ta butun son.
 
-###### Output
+#### Output
 
 Kiritilgan sonlarning o'rtanchasini chop etilsin.
 
@@ -207,9 +207,9 @@ Kiritilgan sonlarning o'rtanchasini chop etilsin.
 
 ---
 
-### Masala 8.
+### Masala 8
 
-###### Description
+##### Description
 
 > Foydalanuvchidan 5 ta butun son o'qilsin va hajmi 5 ga teng bo'lgan `arr[]` ***`array`*** ga saqlansin.  Bu 5 ta o'quvchining imtihon natijalarini anglatadi. Eng katta ball olgan o'quvchi birinchi o'rin, eng kam ball olgan o'quvchi oxirgi o'rin deb topiladi. Agar 2 talaba bir xil ball olgan bo'lsa ularning o'rni ham bir xil bo'ladi.
 
@@ -222,11 +222,11 @@ Kiritilgan sonlarning o'rtanchasini chop etilsin.
 > - To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
 > - **`Loop`** ichida o'zgaruvchilarning faqatgina manzilidan foydalanib ishlansin.
 
-###### Input
+#### Input
 
 5 ta butun son.
 
-###### Output
+#### Output
 
 Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bitta o'rinda turishi kerak.
 
@@ -243,9 +243,9 @@ Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bit
 
 ---
 
-### Masala 9.
+### Masala 9
 
-###### Description
+##### Description
 
 > - Hajmi 50 bo'lgan bitta `int` ***`array`***  e'lon qilinsin. Unga `N` ta son o'qib, ularni ***`array`*** ga joylansin. 0 dan avval kiritilgan barcha raqamlar nechta ekanini chop etilsin.
 
@@ -258,12 +258,12 @@ Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bit
     >- To'rtburchak qavslardan foydalanish mumkin emas (`arr[1]`  ⇒  ❌).
     >- **`Loop`** ichida o'zgaruvchilarning faqatgina manzilidan foydalanib ishlansin.
 
-###### Input
+#### Input
 
 1. Birinchi qatorda `N` butun soni (1 ≤ N ≤ 50).
 2. Ikkinchi qatorda `N` ta butun sonlar. 
 
-###### Output
+#### Output
 
 `0` dan avval kiritilgan raqamlarning sonini chop etilsin.
 
@@ -280,9 +280,9 @@ Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bit
 
 ---
 
-### Masala 10.
+### Masala 10
 
-###### Description
+##### Description
 
 > - Hajmi 50 bo'lgan bitta `int` ***`array`***  e'lon qilinsin. Unga `N` ta son o'qib, ularni ***`array`*** ga joylansin. So'ngra, ***`array`*** ning indeksini anglatuvchi 2 ta butun son ***`a`*** va ***`b`*** larni o'qilsin. Arrayning ikkala indeksidagi sonlarni bir-biri bilan almashtirilsin. Yangilangan arrayni chop etilsin.
 
@@ -294,13 +294,13 @@ Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bit
 >- `main()` funksiyasi:
     - Sonlarni o'qiydi va natijani chop etadi.
 
-###### Input
+#### Input
 
 1. Birinchi qatorda `N` butun soni (1 ≤ N ≤ 50).
 2. Ikkinchi qatorda `N` ta butun sonlar. 
 3. Uchinchi qatorda `a` va `b` butun sonlar.
 
-###### Output
+#### Output
 
 `a` va `b` indeksdagi qiymatlari almashtirilgan yangilangan ***`array`*** ni chop etilsin.
 
@@ -311,24 +311,24 @@ Kiritilgan sonlarning o'rni. Ikki bir xil son kiritilgan taqdirda ikkisi ham bit
 
 ---
 
-### Masala 11.
+### Masala 11
 
-###### Description
+##### Description
 
- - Ikkita butun sonlar o'qib ularning yig'indisini chop etadigan dastur tuzilsin.
+ >- Ikkita butun sonlar o'qib ularning yig'indisini chop etadigan dastur tuzilsin.
 
-- `sum()` funksiyasi:
+>- `sum()` funksiyasi:
     - Argumentlari: bitta `int` ***`pointer`*** va ikkita butun son.
     - Return type: `void`.
     - ***`Pointer`*** qarab turgan ozgaruvchiga ikkala butun sonning yig'indisini joylaydi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - Ikkita son o'qiydi va ularning yig'indisini chop etadi.
 
-###### Input
+#### Input
 
 Ikkita butun son `a` va `b`.
 
-###### Output
+#### Output
 
 `a` va `b`larning yig'indisi.
 
@@ -345,25 +345,25 @@ Ikkita butun son `a` va `b`.
 
 ---
 
-### Masala 12.
+### Masala 12
 
-###### Description
+##### Description
 
-`N` ta butun son o'qilsin va kiritilgan sonlardagi **juft raqam**larning sonini chop etilsin.
+>`N` ta butun son o'qilsin va kiritilgan sonlardagi **juft raqam**larning sonini chop etilsin.
 
-- `findeven()` funksiyasi:
+>- `findeven()` funksiyasi:
     - Argumentlari: bitta `int` ***`array`***  va uning hajmi `int size`.
     - Return type: `int`.
     - ***`Array`*** dagi juft raqamlar sonini qaytaradi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - `N` ta son o'qiydi va natijani chop etadi.
 
-###### Input
+#### Input
 
 1. Birinchi qatorda bitta butun son $`N`$ (1 ≤ N ≤ 100).
 2. Ikkinchi qatorda $`N`$ ta butun sonlar.
 
-###### Output
+#### Output
 
 Nechta juft son kiritilganini chop etilsin.
 
@@ -374,24 +374,24 @@ Nechta juft son kiritilganini chop etilsin.
 
 ---
 
-### Masala 13.
+### Masala 13
 
-###### Description
+##### Description
 
-6 ta belgi o'qilsin va uni ***`array`*** ga joylansin. Ushbu ***`array`***  elementlarini boshqa arrayga ko'chiring. Ikkala arrayda ham belgilar saqlanib qolish kerak,
+>6 ta belgi o'qilsin va uni ***`array`*** ga joylansin. Ushbu ***`array`***  elementlarini boshqa arrayga ko'chiring. Ikkala arrayda ham belgilar saqlanib qolish kerak,
 
-- `strcopy()` funksiyasi:
+>- `strcopy()` funksiyasi:
     - Argumentlari: Ikkita `int` ***`array`*** lar `a[]` va `b[]`.
     - Return type: `void`.
     - `b[]` ***`array`*** dagi elemntlarni `a[]` ***`array`*** ga ko'chiradi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - `N` ta son o'qiydi va natijani chop etadi.
 
-###### Input
+#### Input
 
 6 ta belgi.
 
-###### Output
+#### Output
 
 Shu oltita belgini ikkichi ***`array`***  orqali chop etilsin.
 
@@ -402,26 +402,26 @@ Shu oltita belgini ikkichi ***`array`***  orqali chop etilsin.
 
 ---
 
-### Masala 14.
+### Masala 14
 
-###### Description
+##### Description
 
-N ta butun son o'qilsin. Kiritilgan sonlarning yig'indisini chop etadigan dastur tuzilsin.
+>N ta butun son o'qilsin. Kiritilgan sonlarning yig'indisini chop etadigan dastur tuzilsin.
 
-- `arrsum()` funksiyasi:
+>- `arrsum()` funksiyasi:
     - Argumentlari: Bitta `int` ***`array`***  `a[]` va uning hajmi.
     - Return type: `int`.
     - `Array` elementlarining yig'indisini qaytaradi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - `N` ta son o'qiydi va natijani chop etadi.
 
-###### Input
+#### Input
 
 Birinchi qatorda butun son `N` (1 ≤ N ≤ 100).
 
 Ikkinchi qatorda `N` ta butun sonlar.
 
-###### Output
+#### Output
 
 Kiritilgan sonlarning yig'indisini chop etilsin.
 
@@ -432,26 +432,26 @@ Kiritilgan sonlarning yig'indisini chop etilsin.
 
 ---
 
-### Masala 15.
+### Masala 15
 
-###### Description
+##### Description
 
-10 ta butun son o'qilsin va kiritilgan sonlarni kamayib borish tartibida saqlab, chop etilsin.
+>10 ta butun son o'qilsin va kiritilgan sonlarni kamayib borish tartibida saqlab, chop etilsin.
 
-- `ABC()` funksiyasi:
+>- `ABC()` funksiyasi:
     - Argumentlari: Bitta `int` ***`array`***  `a[]` va bitta butun son `int k`.
     - Return type: `void`.
     - ***`Array`*** ning`k` indeksdagi elementidan boshlab ***`array`*** ning oxirgi elementigacha bo'lgan elementlarni solishtirib shu oraliqdagi eng katta sonni aniqlaydi va `k` indeksga joylaydi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - Array elementlarini o'qiydi.
     - `ABC()` funksiyasini 9 marta chaqiradi.
     - Tartiblangan arrayni chop etadi.
 
-###### Input
+#### Input
 
 10 ta butun son `N`.
 
-###### Output
+#### Output
 
 Kiritilgan sonlarni kattasidan  kichigiga qarab array orqali chop etilsin.
 
@@ -468,26 +468,26 @@ Kiritilgan sonlarni kattasidan  kichigiga qarab array orqali chop etilsin.
 
 ---
 
-### Masala 16.
+### Masala 16
 
-###### Description
+##### Description
 
-`N` ta butun son o'qilsin. Kiritilgan sonlarni yoki o'sib borish, yoki kamayib borish tartibida chop etilsin. 
+>`N` ta butun son o'qilsin. Kiritilgan sonlarni yoki o'sib borish, yoki kamayib borish tartibida chop etilsin. 
 
-- `userAlign()` funksiyasi:
+>- `userAlign()` funksiyasi:
     - Argumentlari: ***`Array`*** ga qarab turgan bitta `int` ***`pointer`,***  ***`array`*** ning hajmi, tartiblash qaysi tartibda (o'sib borish yoki kamayib borish) bo'lishi kerakligini anglatuvchi bitta butun son (0: o'sib borish, 1: kamayib borish).
     - Return type: `void`.
     - Butun sonlarni o'sib borish yoki kamayib borish tartibida joylashtiradi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - Sonlarni o'qiydi va natijani chop etadi.
     - Sonlarni takroran kiritish mumkin emas.
 
-###### Input
+#### Input
 
 1. Birinchi qatorda butun son `N` va yana bitta butun son `a`. Agar a = 1 bo'lsa kamayib borish tartibida, a = 0 bo'lsa o'sib borish tartibida joylashtiriladi.
 2. Ikkinchi qatorda `N` ta butun sonlar o'qiladi.
 
-###### Output
+#### Output
 
 `a` ning qiymatiga qarab, sonlarni o'sib borish yoki kamayib borish tartibida joylashtirilsin.
 
@@ -504,26 +504,26 @@ Kiritilgan sonlarni kattasidan  kichigiga qarab array orqali chop etilsin.
 
 ---
 
-### Masala 17.
+### Masala 17
 
-###### Description
+##### Description
 
-2 marta `N` ta butun son o'qilsin va 2 ta `arr1[]` va `arr2[]` ***`array`*** larga saqlansin. Ikkinchi arrayni birinchi arrayga teskari tartibda qo'shib, chop etadigan dastur tuzilsin. Uchinchi array ham e'lon qilinsin.  
+>2 marta `N` ta butun son o'qilsin va 2 ta `arr1[]` va `arr2[]` ***`array`*** larga saqlansin. Ikkinchi arrayni birinchi arrayga teskari tartibda qo'shib, chop etadigan dastur tuzilsin. Uchinchi array ham e'lon qilinsin.  
 
-- `addArray()` funksiyasi:
+>- `addArray()` funksiyasi:
     - Argumentlari: 3 ta ***`array`***  uchun 3 ta ***`pointer`,*** 3 ta arrayning hajmi uchun bitta butun son `int size`.
     - Return type: `void`.
     - 1-***`array`*** ning 1-elementini 2-***`array`*** ning oxirgi elementiga, 1-***`array`*** ning 2-elementini 2-***`array`*** ning oxirgidan bitta oldingi elementiga (va hokazo) qo'shib, natijani 3-arrayga saqlaydi.
-- `main()` funksiyasi:
+>- `main()` funksiyasi:
     - Sonlarni o'qiydi va natijani chop etadi.
 
-###### Input
+#### Input
 
 1. Birinchi qatorda bitta butun son `N` (N ≤ 20).
 2. Ikkinchi qatorda 1-arrayga `N` ta element o'qilsin.
 3. Uchinchi qatorda 2-arrayga `N` ta element o'qilsin.
 
-###### Output
+#### Output
 
 Uchinchi arrayni chop etilsin.
 
