@@ -451,25 +451,25 @@ Kiritilgan son perfect son bo'lsa `1` ni, yo'qsa `0` ni chop eting.
 
 ---
 
-### Masala 15
-
-### Kichkina Shahzoda
+### Masala 15 - Kichkina Shahzoda
 
 ##### Description
 
->Kichik shahzoda o'z planetasida yashaydi. Uning malikasi esa boshqa planetada. Kichik shahzoda malikaning xavfda ekanidan xabar topadi va uni qutqarishga yo'lga otlanadi. Afsuski, uning raketasi unchalik kuchli emas. Shuning uchun, u yo'lda iloji boricha kamroq planeta kesib o'tishiga to'g'ri keladi. Quyidagi xarita *Somon Yo'li* galaktikasining Kichik Shahzoda sayohat qiladigan qismini ko'rsatadi.
+> Kichik shahzoda o'z planetasida yashaydi. Uning malikasi esa boshqa planetada. Kichik shahzoda malikaning xavfda ekanidan xabar topadi va uni qutqarishga yo'lga otlanadi. Afsuski, uning raketasi unchalik kuchli emas. Shuning uchun, u yo'lda iloji boricha kamroq planeta kesib o'tishiga to'g'ri keladi. Quyidagi xarita *Somon Yo'li* galaktikasining Kichik Shahzoda sayohat qiladigan qismini ko'rsatadi.
 
 ![https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/upload/201003/dfcmhrjj_113gw6bcng2_b.gif](https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/upload/201003/dfcmhrjj_113gw6bcng2_b.gif)
 
->Qizil chiziq shahzodani planeta hududiga eng kam kirish/chiqish orqali yetish yo'lini anglatadi. Aylanalar planetalar chegaralarini. Eng kam kirish/chiqish bajariladigan yo'llar ko'p, lekin qay yo'l bilan bormasin kamida 3 marta planeta chegarasini kesib o'tishiga to'g'ri keladi. Shahzodaning va malikaning koordinatalari berilgan bo'lsa, shahzoda necha marta planeta chegarasini kesib o'tishga majbur ekanini aniqlaydigan dastur tuzing. 
+> Qizil chiziq shahzodani planeta hududiga eng kam kirish/chiqish orqali yetish yo'lini anglatadi. Aylanalar planetalar chegaralarini. Eng kam kirish/chiqish bajariladigan yo'llar ko'p, lekin qay yo'l bilan bormasin kamida 3 marta planeta chegarasini kesib o'tishiga to'g'ri keladi. Shahzodaning va malikaning koordinatalari berilgan bo'lsa, shahzoda necha marta planeta chegarasini kesib o'tishga majbur ekanini aniqlaydigan dastur tuzing. 
 
->(Masala shartida planetalar chegaralari ustma-ust tushmaydi va bir-birini kesib o'tmaydi. Shuningdek, shahzoda va malika koordinatalari hech qachon chegara ustida bo'lmaydi).
+> (Masala shartida planetalar chegaralari ustma-ust tushmaydi va bir-birini kesib o'tmaydi. Shuningdek, shahzoda va malika koordinatalari hech qachon chegara ustida bo'lmaydi).
 
 #### Input
 
 Birinchi qatorda `testcase` lar soni T berilsin. Keyingi qatordan boshlab, har bir `testcase` ning birinchi qatorida shahzoda $(x_1,y_1)$ va malikaning $(x_2,y_2)$ koordinatalari berilsin. `Testcase` ning ikkinchi qatorida planetar soni $n$ berilsin. Keyingi $n$ta qatorning har birida planeta markazi $(c_x,c_y)$ va radiusi $r$ berilsin.
 
-(−1000 ≤ $x_1$, $y_1$, $x_2,y_2, c_x, c_y ≤ 1000, 1 ≤ r, T ≤ 1000, 1 ≤ n ≤ 50$)
+$$−1000 ]\leq x_1, y_1, x_2, y_2, c_x, c_y \leq 1000$$
+$$1 \leq r, T \leq 1000$$
+$$1 \leq n \leq 50$$
 
 #### Output
 
@@ -479,3 +479,41 @@ Har bir `testcase` uchun shahzoda nechta planeta chegarasini kesib o'tishga majb
 | Input | Output |
 | - | - | 
 | `2`<br>`-5 1 12 1`<br>`7`<br>`1 1 8`<br>`-3 -1 1`<br>`2 2 2`<br>`5 5 1`<br>`-4 5 1`<br>`12 1 1`<br>`12  1 2`<br>`-5 1 5 1`<br>`1`<br>` 0 0 2` | `3`<br>`0` |
+
+
+<br>
+
+### Masala 16- Sekundlarni odam tushunadigan formatga o'tkazing
+
+> Quyidagi talablarga mos keluvchi metod / funksiya yozing:
+
+<br>
+
+> * Parametr sifatida musbat son (sekundlar) qabul qilsin va ularni odamga tushunarli vaqt formati (`HH:MM:SS`)ga o'tkazib qaytarsin.
+> * Maksimum qabul qilinuvchi qiymat `99:59:59` bo'lsin, bu qiymatdan ortiq sekundlar kiritilganda `Error` xabarini qaytarsin.
+> * Manfiy son yoki `string`, `char` kabi yaroqsiz ma'lumot kiritilsa, `Error` xabarini qaytarsin.
+
+<br>
+
+Yuqoridagi metod / funksiyadan foydalanib kiritilgan son (soniyalar)ni `HH:MM:SS` shaklida qaytarib chop eting.
+
+#### Input
+```
+Soniyalar
+```
+#### Output
+```
+HH:MM:SS
+```
+
+<br>
+
+#### Sample input 1
+| Input  | Output |
+|-------|----  |
+|`350` | `00:05:50`|                                                
+
+#### Sample input 
+|Input| Output |
+|-----|--------|
+| `459999` | `Error` |
