@@ -43,7 +43,7 @@ Kiritilgan sonning qiymatiga qarab ichkarida o'yna yoki tashqarida o'yna matnlar
 ### Masala 2
   
   
-######  Description
+###### Description
   
   
 >Ikkita butun sonlar `N` va `M`larni o'qing. Agar ulardan biri boshqasining kvadratiga teng bo'lsa namunadagidek chop eting. Aks holda, **none** deb chop eting.
@@ -363,8 +363,8 @@ Bitta belgi `c`.
 ###### Input
   
   
-- 1 - qatorda o'yin javobi uchun uchta sonlar`(0 ≤ SON ≤ 9)`.
-- 2- qatorda taxminlar uchun uchta sonlar`(0 ≤ SON ≤ 9)`.
+- 1 - qatorda o'yin javobi uchun uchta sonlar: **$0 \leq javob \leq 9$**
+- 2- qatorda taxminlar uchun uchta sonlar: **$0 \leq taxmin \leq 9$**
   
 ###### Output
   
@@ -456,7 +456,7 @@ Kiritilgan ifodaning javobini chop eting.
 ###### Input
   
   
-- Birinchi qatorda ichimlik raqamini anglatuvchi bitta `N` soni (1≤ N ≤ 3).
+- Birinchi qatorda ichimlik raqamini anglatuvchi bitta `N` soni: $1 \leq N \leq 3$
 - Ikkinchi qatorda shu tanlangan ichimlik uchun kiritilgan pul summasi.
   
 ###### Output
@@ -556,9 +556,9 @@ Bitta butun son `N`.
   
 > - Pifagor sonlari deb 2 ta sonning kvadratlari yig'indisi 3-son kvadratiga teng bo'lgan sonlarga aytiladi.
 > - **a**, **b** va **c** Pifagor sonlari bo'lish uchun ular quyidagi shartlardan birini qoniqtirishi kerak:
->   - <img src="https://latex.codecogs.com/gif.latex?a^2+b^2=c^2"/>
->   - <img src="https://latex.codecogs.com/gif.latex?a^2+c^2=b^2"/>
->   - <img src="https://latex.codecogs.com/gif.latex?b^2+c^2=a^2"/>
+>   - $a^2 + b^2 = c^2$
+>   - $a^2 + c^2 = b^2$
+>   - $b^2 + c^2 = a^2$
   
 ###### Namuna 1
   
@@ -664,7 +664,9 @@ Bitta butun son `N`.
 ###### Input
   
   
-Wahid amakining turishi kerak bo'lgan vaqtini anglatuvchi ikki butun sonlar `S` va `M` (`0 ≤ S ≤ 23`, `0 ≤ M ≤ 59`).
+Wahid amakining turishi kerak bo'lgan vaqtini anglatuvchi ikki butun sonlar `S` va `M`: 
+$$0 \leq S \leq 23$$ 
+$$0 \leq M \leq 59$$ 
   
 ###### Output
   
@@ -702,7 +704,7 @@ Budilnik to'g'rilanishi kerak bo'lgan vaqtning soat va minutini bir qatorda, ora
 ###### Input
   
   
-Bitta butun musbat son `N` (`1 ≤ N ≤ 100`).
+Bitta butun musbat son `N`: $1 \leq N \leq 100$
   
 ###### Output
   
@@ -743,7 +745,7 @@ Jadvaldagi kiritilgan songa mos harf chop eting.
 ###### Input
   
   
-Taksi yo'l haqini ifodalovchi bitta butun musbat son `N` (`3000 ≤ N ≤ 1000000`).
+Taksi yo'l haqini ifodalovchi bitta butun musbat son `N`: $3000 \leq N \leq 1000000$.
   
 ###### Output
   
@@ -821,7 +823,7 @@ Agar kiritilgan belgi alifbo harfi bo'lsa `1` ni, aks holda `0` ni chop eting.
 ######  Description
   
   
->Masala sonini anglatuvchi `n` butun sonini o'qing. (`1 ≤ n ≤ 20`)
+>Masala sonini anglatuvchi `n` butun sonini o'qing:  $1 \leq n \leq 20$
   
 >- yuqoridagi songa mos keluvchi masalani ishga tushiring
   
@@ -852,6 +854,7 @@ Agar kiritilgan belgi alifbo harfi bo'lsa `1` ni, aks holda `0` ni chop eting.
 | `2`<br>`5 2 3`<br>`5 3 4` | `1S1B` |
   
 <br>
+
 ######  Yordam
   
 ```cpp
