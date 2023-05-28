@@ -244,9 +244,7 @@ Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizin
 
 ---
 
-### Masala 11.
-
-### Soyabon
+### Masala 11 - Soyabon
 
 ##### Description
 
@@ -258,7 +256,7 @@ Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizin
 
 #### Input
 
-Birinchi qatorda **`3`** ta butun sonlar ($N, M$, $B_0$) berilgan.
+Birinchi qatorda **`3`** ta butun sonlar $N, M$, $B_0$ berilgan.
 
 > - $N$ — binolar soni (2 ≤ $N$ ≤ 10).
 > - $M$ — harakatlanishlar soni (1 ≤ $M$ ≤ 200).
@@ -280,9 +278,8 @@ Sotib olingan soyabonlar sonini chop eting.
 
 ###### Description
 
-Uzunligi mos ravishda **`m`** va **`n`** bo'lgan, o'sish tartibida tartiblangan 2 ta **`array`** $nums_1$ va $nums_2$ berilgan.
-
-Ikkala arraydagi sonlar uchun umumiy medianani toping.
+> - Uzunligi mos ravishda **`m`** va **`n`** bo'lgan, o'sish tartibida tartiblangan 2 ta **`array`** $nums_1$ va $nums_2$ berilgan.
+> - Ikkala arraydagi sonlar uchun umumiy medianani toping.
 
 ###### Input
 
@@ -292,9 +289,8 @@ Uchinchi qatorda $nums_2$ uzunligi $m$ va to'rtinchi qatorda $nums_2$ sonlarini 
 
 Ikkala arrayning ham sonlari orasida `space` bilan o'qiladi. 
 
-$0 \leq n, m \leq 1000$
-
-$-10^6 \leq nums_1 [i], nums_2 [i] \leq 10^6$    
+$$0 \leq n, m \leq 1000$$
+$$-10^6 \leq nums_1[i], nums_2[i] \leq 10^6$$ 
 
 ###### Output
 
@@ -303,33 +299,34 @@ Ikkala arraydagi sonlarning umumiy medianasini nuqtadan keyin 5 ta aniqlikda cho
 ###### Namuna 1
 | Input | Output |
 | - | - |
-| 1 3 </br> 2 | 2.00000 |
-| 1 2 </br> 3 4 | 2.50000 |
+| `1 3` </br> `2` | `2.00000` |
+| `1 2` </br> `3 4` | `2.50000` |
 
 
-> ###### Izoh
->---
->1. *Umumiy array = $[1, 2, 3]$ va mediana = $2$.*
->2. *Umumiy array = $[1, 2, 3, 4]$ va mediana = $\frac{(2 + 3)}{2} = 2.50000$.*
+###### Izoh
+> * Umumiy array = $[1, 2, 3]$ va mediana = $2$
+> * Umumiy array = $[1, 2, 3, 4]$ va mediana = $\frac{(2 + 3)}{2} = 2.50000$
+
+---
 
 ### Masala 13 - Arraydagi uchliklar soni
 
 ###### Description
 
-Uzunligi $n$ bo'lgan $nums$ array berilgan.
+> - Uzunligi $n$ bo'lgan $nums$ array berilgan.
+> - Ushbu arraydagi quyidagi shartlarni qanoatlantiradigan $[nums[i], nums[j], nums[k]]$ uchliklarni toping:
 
-Ushbu arraydagi quyidagi shartlarni qanoatlantiradigan $[nums[i], nums[j], nums[k]]$ uchliklarni toping:
+$$i \neq j \neq k$$
+$$nums[i] + nums[j] + nums[k] = 0$$
 
-$i \neq j \neq k$
-$nums[i] + nums[j] + nums[k] = 0$
 ###### Input
 
 Birinchi qatorda $nums$ uzunligi $n$ va ikkinchi qatorda $nums$ arrayning sonlarini o'qiladi.
 
 Arrayning sonlari orasida `space` bilan o'qiladi. 
 
-$0 \leq n \leq 3000$
-$-10^5 \leq nums1[i] \leq 10^5$
+$$0 \leq n \leq 3000$$
+$$-10^5 \leq nums1[i] \leq 10^5$$
 
 ###### Output
 
@@ -337,10 +334,10 @@ Yuqoridagi shartlarni qanoatlantiradigan uchliklarni alohida qatorlarda orasida 
 
 | Input | Output |
 | - | - |
-| 6 </br> -1 0 1 2 -1 -4 | -1 -1 2 </br> -1 0 1 </br> |
-| 1 </br> 0 |  |
+| `6` </br> `-1 0 1 2 -1 -4` | `-1 -1 2` </br> `-1 0 1` </br> |
+| `1` </br> `0` |  |
 
->###### Izoh
->---
-> 1. $[-1,0,1,2,-1,-4] \Longrightarrow [[-1,-1,2],[-1,0,1]]$
-> 2. $[0] \Longrightarrow []$
+###### Izoh
+> - $[-1,0,1,2,-1,-4] \Longrightarrow [[-1,-1,2],[-1,0,1]]$
+> - $[0] \Longrightarrow []$
+---
