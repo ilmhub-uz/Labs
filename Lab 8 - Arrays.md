@@ -1,6 +1,6 @@
-## Lab 8 — Arrays
+## Lab 8 — Arraylar
 
-### Masala 1.
+### Masala 1
 
 ###### Description
 
@@ -52,7 +52,7 @@ Hosil bo'lgan ***`array`*** ning har bir elementini alohida qatorlarda chop etil
 
 ###### Description
 
-> - 10 ta butun `N` sonlarni o'qib, ularni ***`array`*** ga saqlansin (`1 ≤ N ≤ 3`).
+> - 10 ta butun `N` sonlarni o'qib, ularni ***`array`*** ga saqlansin: (`1 ≤ N ≤ 3`).
 > - Arrayda har bir sonning nechtadan mavjudligini aniqlansin.
 > - Har bir sonni va shu sonning sanog'icha yulduzchalarni chop etadigan dastur tuzilsin.
 
@@ -174,16 +174,23 @@ Arrayning eng katta qiymatga ega 2 ta elementlarini alohida qatorlarda chop etil
 
 ###### Description
 
- 3 ta butun `sonlar` o'qilsin (`0 ≤ sonlar ≤ 5`).
- Shu sonlarni ifodalovchi ingliz tilidagi so'zlar 3 ta alohida qatorlarda, namunadagidek chop etilsin.
+> - 3 ta butun `sonlar` o'qilsin: $0 \leq sonlar \leq 5$
+> - Shu sonlarni ifodalovchi ingliz tilidagi so'zlar 3 ta alohida qatorlarda, namunadagidek chop etilsin.
 
-> HINT: 2 o'lchamli `array`dan foydalanilsin.
+:bulb: 2 o'lchamli `array`dan foydalanilsin.
 
-![Jadval](8-8.png)
+| **Son** | **So'z** |
+|---------|----------|
+| **0**   | `ZERO-`    |
+| **1**   | `ONE--`    |
+| **2**   | `TWO--`    |
+| **3**   | `THREE`    |
+| **4**   | `FOUR-`    |
+| **5**   | `FIVE-`    |
 
 ###### Input
 
-3 ta butun `sonlar` (`0 ≤ sonlar ≤ 5`).
+3 ta butun `sonlar`: $0 \leq sonlar \leq 5$
 
 ###### Output
 
@@ -196,7 +203,7 @@ Shu sonlarning ingliz tilidagi nomini alohida qatorlarda chop etilsin.
 
 ---
 
-### Masala 9.
+### Masala 9
 
 ###### Description
 
@@ -219,19 +226,17 @@ Har bir talabaning umumiy balli alohida qatorlarda chop etilsin.
 
 ---
 
-### Masala 10.
+### Masala 10 - Achchiq Haqiqat
 
 ###### Description
 
-### Achchiq Haqiqat
-
-90% birinchi kurs talabalari o'zlarini o'rtachadan yuqori baho oladi deb hisoblashadi. Achchiq haqiqatni aytish vaqti keldi
+$90\%$ birinchi kurs talabalari o'zlarini o'rtachadan yuqori baho oladi deb hisoblashadi. Achchiq haqiqatni aytish vaqti keldi
 
 ###### Input
 
- - Birinchi qatorda `testcase`lar soni `C` (1 ≤ C ≤ 1000).
- - Keyingi `C` ta qatorlarda studentlar soni `N` va ularning `N` ta baholari bitta qatorda ketma-ket kiritiladi. (1 ≤ N ≤ 1000).
- - Baholar 1 dan 100 gacha bo'lgan butun sonlar (1 ≤ baholar ≤100).
+ - Birinchi qatorda `testcase`lar soni `C`: $1 \leq C \leq 1000$
+ - Keyingi `C` ta qatorlarda studentlar soni `N` va ularning `N` ta baholari bitta qatorda ketma-ket kiritiladi:  $1 \leq N \leq 1000$
+ - Baholar 1 dan 100 gacha bo'lgan butun sonlar: $1 \leq baholar \leq 100$
 
 ###### Output
 
@@ -258,13 +263,16 @@ Har bir `testcase` uchun o'rtachadan yuqori natija ko'rsatgan o'quvchilar foizin
 
 ###### Input
 
-Birinchi qatorda **`3`** ta butun sonlar ($N, M$, $B_0$) berilgan.
+Birinchi qatorda **`3`** ta butun sonlar $N, M, B_0$ berilgan.
 
-> - $N$ — binolar soni (2 ≤ $N$ ≤ 10).
-> - $M$ — harakatlanishlar soni (1 ≤ $M$ ≤ 200).
-> - $B_0$ — harakatlanish boshlanadigan bino (1 ≤ $B_0$ ≤ $N$).
+> - $N$ — binolar soni: $2 \leq N \leq 10$
+> - $M$ — harakatlanishlar soni: $1 \leq M \leq 200$
+> - $B_0$ — harakatlanish boshlanadigan bino: $1 \leq B_0 \leq N$
     
->  Keyingi $M$ qatorning har bir i - qatorida Wahid ketayotgan $B_i$ bino va soyabon ehtiyojini anglatuvchi $R_i$ kiritiladi. (1 ≤ $B_i$ ≤ $N$; 0 ≤ $R_i$ ≤ 1; $B_{i − 1}$ $!= B_i$)
+>  Keyingi $M$ qatorning har bir i - qatorida Wahid ketayotgan $B_i$ bino va soyabon ehtiyojini anglatuvchi $R_i$ kiritiladi. 
+$$1 \leq B_i \leq N$$
+$$ 0 \leq R_i \leq 1$$
+$$B_{i − 1} != B_i$$
     
 
 ###### Output
@@ -276,9 +284,7 @@ Sotib olingan soyabonlar sonini chop eting.
 | - | - |
 | `2 5 1`<br>`2 0`<br>`1 1`<br>`2 0`<br>`1 1`<br>`2 1` | `2` |
 
-### Masala 12.
-
-### Array birlashtirish
+### Masala 12 - Arraylarni birlashtirish
 
 ###### Description
 
@@ -287,8 +293,8 @@ Sotib olingan soyabonlar sonini chop eting.
 >  Birlashtirilgan arrayni o'sib borish tartibida sort qiling.
 >  Birlashtirilgan arrayni chop eting.  
 ###### Input
-> - array elementlar soni (1 ≤ arr_num ≤ 50).
-> - arraydagi sonlar (-100 <= arr_val <= 100)
+> - array elementlar soni: $1 \leq N \leq 50$
+> - arraydagi sonlar: $-100 \leq qiymat \leq  100$
     
 ###### Output
 Birlashtirilgan arrayni o'sish borish tartibida chop eting.
@@ -297,11 +303,3 @@ Birlashtirilgan arrayni o'sish borish tartibida chop eting.
 | Input | Output |
 | - | - |
 | `1 2 4`<br>`1 3 4` |`1 1 2 3 4 4`|
-###### Namuna 2
-| Input | Output |
-| - | - |
-| ` `<br>`0`<br>|`0`|
-###### Namuna 3
-| Input | Output |
-| - | - |
-| ` `<br>` `<br> |` `|
