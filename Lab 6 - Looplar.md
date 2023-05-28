@@ -109,15 +109,15 @@ Barcha urinishlar va ularning yuqorida aytilgan natijalarning har biri bittadan 
 
 ###### Input
 
-❌No **INPUT!**
+Input mavjud emas. Shunchaki namunadagiday chop eting.
 
 ###### Output
 
 2 dan 10 gacha sonlarning har birining alohida qatorlarda, namunadagidek ko’rinishda chop etilgan faktoriallar jadvali.
 
-## Namuna Output
+###### Namuna Output
 
-```
+```sh
 2!=1*2=2
 3!=1*2*3=6
 4!=1*2*3*4=24
@@ -187,7 +187,7 @@ Bir vaqtning o’zida shu sonlarning har ikkisi ham qoldiqsiz bo’linadigan son
 
 ###### Input
 
-Bitta musbat butun son `N` (2 ≤ N ≤ 1000).
+Bitta musbat butun son `N`: $2 \leq N \leq 1000$
 
 ###### Output
 
@@ -215,7 +215,7 @@ Namunadagidek piramida chop etilsin.
 
 ###### Input
 
-❌No **INPUT!**
+Input mavjud emas. Shunchaki namunadagiday chop eting.
 
 ###### Output
 
@@ -255,11 +255,11 @@ Namunadagidek, raqamlardan yasalgan kvadrat chop etilsin.
 
 ###### Input
 
-Bitta musbat butun son `N` (`3≤N≤1000000000`).
+Bitta musbat butun son `N`: $3 \leq N \leq 1000000000$
 
 ###### Output
 
-1 dan boshlab shu songa yetib kelguncha yozilishi kerak bo’lgan 3️⃣ lar soni.
+1 dan boshlab shu songa yetib kelguncha yozilishi kerak bo'lgan 3️⃣ lar soni.
 
 ###### Namuna 1
 | Input | Output |
@@ -292,7 +292,7 @@ Bitta musbat butun son `N` (`3≤N≤1000000000`).
 
 ###### Input
 
-Bitta butun son `N` (`2≤N≤1000`).
+Bitta butun son `N`: $2 \leq N \leq 1000$
 
 ###### Output
 
@@ -325,7 +325,12 @@ Uchburchakni namunadagidek chop eting.
 
 >`N`soni berilganda uning singularity qiymatini topadigan dastur tuzing.
 
-> Masalan: 6345 –> 6 + 3 + 4 + 5 = 18 –> 1 + 8 =9
+
+###### Masalan
+```mermaid
+graph LR;
+     A[6345] -..-> B[6 + 3 + 4 + 5] --> C[18] -..-> D[1 + 8] --> E[9]
+```
 > 
 
 ###### Input
@@ -369,17 +374,13 @@ Sonning singularity qiymati.
 
 ###### Input
 
-❌No **INPUT!**
+Input mavjud emas. Shunchaki namunadagiday chop eting.
 
 ###### Output
 
-Otilganda tepa tomonidagi qiymatlar yig’indisi 10 ga teng bo’lishi mumkin bo’lgan barcha kombinatsiyalarni alohida qatorlarda, qiymatlar orasida bitta **space** bilan chop etilsin.
+Otilganda tepa tomonidagi qiymatlar yig'indisi 10 ga teng bo’lishi mumkin bo'lgan barcha kombinatsiyalarni alohida qatorlarda, qiymatlar orasida bitta **space** bilan chop etilsin.
 
-![Ushbu rasmdagi kombinatsiyada yig’indi **11** ga teng.](Lab%206%20%E2%80%94%20Loops%20457dd6af3cf946d0aea65855838553e4/Untitled.png)
-
-Ushbu rasmdagi kombinatsiyada yig’indi `11` ga teng.
-
-## Namuna Output
+###### Namuna Output
 
 ```
 1 3 6
@@ -426,7 +427,7 @@ Ushbu rasmdagi kombinatsiyada yig’indi `11` ga teng.
 
 ###### Input
 
-Bitta butun musbat son `N` .
+Bitta butun musbat son `N`
 
 ###### Output
 
@@ -467,7 +468,7 @@ Shu sondan kichik bo’lgan barcha musbat sonlar yig’indisi. Shu sonning o’z
 
 ###### Input
 
-0 yoki manfiy qiymat kiritilmaguncha o’qilaveradigan butun son `N` (`0 ≤ N≤ 100`).
+0 yoki manfiy qiymat kiritilmaguncha o’qilaveradigan butun son `N`: $0 \leq N \leq 100$
 
 ###### Output
 
@@ -504,8 +505,8 @@ Yuqoridagi uchalasini bitta qatorda, orasida bitta **space** bilan chop etilsin.
 
 ###### Input
 
-- Birinchi qatorda `N` soni kiritiladi (2≤N≤10).
-- Ikkinchi qatorda `N` ta butun `sonlar` (−50 ≤ sonlar ≤ 50)
+- Birinchi qatorda `N` soni kiritiladi:  $2 \leq N \leq 10$
+- Ikkinchi qatorda `N` ta butun `sonlar`: $-50 \leq sonlar \leq 50$
 
 ###### Output
 
@@ -532,7 +533,7 @@ Kiritilgan `N` ta sonlarning kublari yig’indisini chop eting.
 
 ###### Input
 
-Bitta butun son `N`ni o’qing (`1 ≤ N ≤ 1000000000`).
+Bitta butun son `N`ni o'qing: $1 \leq N \leq 1000000000$
 
 ###### Output
 
@@ -565,7 +566,7 @@ Agar `N` biror boshqa sonning faktoriali bo’lsa `true` deb, aks holda `false` 
 
 ###### Input
 
-Bitta butun musbat `N` soni (`1 ≤ N ≤ 10000000`).
+Bitta butun musbat `N` soni: $1 \leq N \leq 10000000$
 
 ###### Output
 
@@ -615,8 +616,8 @@ Bitta butun musbat `N` soni (`1 ≤ N ≤ 10000000`).
 
 ###### Input
 
-- Birinchi qatorda robotning harakatlanishlari soni bo’lgan `N`ni o’qing (`2 ≤ N ≤ 1000`).
-- Ikkinchi qatorda robot har harakatlanishda mos ravishda necha qadam yo’l bosishini anglatuvchi, qadamlar sonini ifodalovchi `N` ta `Q` sonlarni o’qing (` −50 ≤ Q ≤ 50`)
+- Birinchi qatorda robotning harakatlanishlari soni bo’lgan `N`ni o’qing: $2 \leq N \leq 1000$
+- Ikkinchi qatorda robot har harakatlanishda mos ravishda necha qadam yo’l bosishini anglatuvchi, qadamlar sonini ifodalovchi `N` ta `Q` sonlarni o’qing:  $−50 \leq Q \leq 50$
 
  Agar kiritilgan qadam manfiy bo’lsa, robot burilmasdan, orqamachasiga yurishini anglatadi.
  
@@ -656,7 +657,7 @@ Robotni yakuniy manzili kordinatasining `x` va `y` qiymatlarini orasida bo’sh 
 
 ###### Input
 
-2 ta butun sonlar `N` va `M` (`1 ≤ N, M ≤ 1000000000`).
+2 ta butun sonlar `N` va `M`: $1 \leq N, M \leq 1000000000$
 
 ###### Output
 
@@ -711,11 +712,29 @@ Bitta musbat `N` soni (`1 ≤ N ≤ 50`).
 
 >- Agar son bir xonali bo’lsa, ikki xonali qilish uchun uning chap tarafiga `0` yoziladi.
 >- Keyin, hosil qilingan 2 xonali sonning o’ng tarafidagi xonasi va berilgan son raqamlari yig’indisining o’ng tarafidagi xonasi ketma-ket yozilib, yangi son hosil qilinadi.
-    
-     Masalan: 26 — berilgan son. 2+6=8. Yangi son — 68.
+
+```mermaid
+graph TD;
+     A[26] --> B[2 + 6 = 8]
+     subgraph 26ni oxirigi xonasi va 26ni raqamlar yig'indisini oxirgi xonasi
+          B --> C[68]
+     end
+     subgraph 68ni oxirigi xonasi va 68ni raqamlar yig'indisini oxirigi xonasi
+          C --> D[6 + 8 = 14]
+          D --> E[84]
+     end
+     subgraph 84ni oxirigi xonasi va 84ni raqamlar yig'indisini oxirigi xonasi
+          E --> F[8 + 4 = 12]
+          F --> G[42]
+     end
+     subgraph 42ni oxirigi xonasi va 42ni raqamlar yig'indisini oxirigi xonasi
+          G --> H[4 + 2 = 6]
+          H --> I[26]
+     end
+```
  
 
->Endi ushbu operatsiya yangi yaratilgan son ustida amalga oshiriladi. Qayta-qayta shu operatsiya amalga oshirilsa, bir nechta qaytarishdan keyin, albatta, yangi hosil qilingan son dastlab kiritilgan songa teng bo’lib qoladi.
+> Endi ushbu operatsiya yangi yaratilgan son ustida amalga oshiriladi. Qayta-qayta shu operatsiya amalga oshirilsa, bir nechta qaytarishdan keyin, albatta, yangi hosil qilingan son dastlab kiritilgan songa teng bo’lib qoladi.
 
 >`N` soni kiritilganda nechta operatsiyadan keyin dastlabki qiymatiga qaytib kelishini aniqlaydigan dastur tuzing.
 
@@ -764,7 +783,7 @@ Qaytarilish sikli soni.
 
 ###### Input
 
-Bitta butun musbat son `N` (`10 ≤ N ≤ 1000`).
+Bitta butun musbat son `N`: $10 \leq N \leq 1000$
 
 ###### Output
 
@@ -796,7 +815,7 @@ Agar son `n` xonali bo’lsa va sonning har bir xonasidagi 1 xonali raqamning `n
 
 ###### Input
 
-Bitta butun musbat son `N` (`1≤N≤100000`).
+Bitta butun musbat son `N`: $1 \leq N \leq 100000$
 
 ###### Output
 
@@ -844,7 +863,7 @@ Berilgan son necha xonali ekanini chop eting.
 
 ###### Input
 
-Bitta butun musbat son `N` (`1≤N≤1000`).
+Bitta butun musbat son `N`: $1 \leq N \leq 1000$
 
 ###### Output
 
