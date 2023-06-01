@@ -1,15 +1,15 @@
 ##  Lab 4 -  Ifodalar
 
-###  Masala 1 -  !!!!
+###  Masala 1
   
-#####  Description
+######  Description
     
 > **`0`** dan **`99999`** gacha bitta son o'qing, va sonni har bir raqamini na'munadagidek chop eting.
 
 
-##### Input
+###### Input
   
-Bitta butun son `N`   $(1 <= N <= 99999)$
+Bitta butun son `N`   $1 \leq N \leq 99999$
   
 ###### Output
   
@@ -75,11 +75,11 @@ Kiritilgan sonning har bir xonasi orasida **`!`** belgisi bilan chop eting.
   
 ###### Input
   
-  Bitta son **`N`** $(10000 ≤ N ≤ 99999)$
+Bitta son **`N`** $10000 \leq N \leq 99999$
   
 ###### Output
   
-  Berilgan **5** xonali sonning **3**-xonasini chop eting.
+Berilgan **5** xonali sonning **3**-xonasini chop eting.
 
   
 ###### Namuna 1
@@ -111,7 +111,7 @@ Kiritilgan sonning har bir xonasi orasida **`!`** belgisi bilan chop eting.
   
 ###### Input
   
-Yo'l haqini ifodalovchi butun musbat son **`N`** $(3000 ≤ N ≤ 1000000)$
+Yo'l haqini ifodalovchi butun musbat son **`N`** $3000 \leq N \leq 1000000$
   
 ###### Output
   
@@ -296,7 +296,7 @@ Bitta butun son **`N`**.
   
 ---
 
-###  Masala 9 - Katta son
+### Masala 9 - Katta son
   
 ######  Description
     
@@ -400,7 +400,7 @@ Kiritilgan ikki vaqt orali'gidagi muddatning necha soniya ekanligini aniqlaydiga
 
 ###### Input
   
-Bir qatorda 4 ta butun son **`A, B, C, D`**. $(1 < A, B, C, D < 10000)$
+Bir qatorda 4 ta butun sonlar **`A, B, C, D`**  $1 \le A, B, C, D \le 10000$ 
   
 ###### Output
   
