@@ -891,23 +891,19 @@ int main()
   
 ---
   
-  ### Masala 22
-
-
-  ##### You Tube
-
+  ### Masala 22 - You Tube
   ##### Description
 
- >Wahid amaki yaqinda Janubiy Koreadan qaytdi. U har kuni You Tubedan video ko'rishni yaxshi ko'radi. Lekin internet tezligi O'zbekistonda juda past. Videoning davomiyligi T sekund, videoning hajmi har sekund uchun S ga teng, Wahid amakining internet tezligi sekundiga C ga teng. Internet tezligi har doim video hajmidan kichkina `(C < S)`. Wahid amaki videoni uzulishlarsiz ko'rmoqchi. Wahid amaki videoni uzulishlarsiz ko'rishi uchun kamida necha sekund kutib turish kerak.
+ > Wahid amaki yaqinda Janubiy Koreadan qaytdi. U har kuni You Tubedan video ko'rishni yaxshi ko'radi. Lekin internet tezligi O'zbekistonda juda past. Videoning davomiyligi T sekund, videoning hajmi har sekund uchun S ga teng, Wahid amakining internet tezligi sekundiga C ga teng. Internet tezligi har doim video hajmidan kichkina `(C < S)`. Wahid amaki videoni uzulishlarsiz ko'rmoqchi. Wahid amaki videoni uzulishlarsiz ko'rishi uchun kamida necha sekund kutib turish kerak.
 
  ###### Input
 
 
- Bir qatorda uchta son `S`, `C`, `T`.`(1 < S, C, T < 1000, S > C)`
+ Bir qatorda uchta sonlar `S`, `C`, `T`:
+ $$1 \le S, C, T \le 1000$$
+ $$S \ge C$$
 
  ###### Output
-
-
  Wahid amaki kutishi kerak bo'lgan eng kam vaqt`(butun son sekundlarda)`.
 
  ###### Namuna 1
@@ -924,16 +920,13 @@ int main()
 
  ---
 
- ### Masala 23
-
-
- ##### Uychalar
+ ### Masala 23 - Uychalar
 
  ##### Description
 
- >Ko'p bolalar yoshliglarida gugurt cho'plardan foydalanib turli hil narsalar yasashgan. Masalan, Wahid amaki gugurt cho'plaridan uychalar yasashni yoqtirar edilar. Ularning yasagan uychalarini ko'rinishi quyidagiga o'xshar edi. 1 ta uycha yasash uchun 6 ta cho'p, 2 ta uycha uchun 11 ta cho'p, 3 ta uycha uchun 16 ta cho'p kerak bo'lar edi.
+ > Ko'p bolalar yoshliglarida gugurt cho'plardan foydalanib turli hil narsalar yasashgan. Masalan, Wahid amaki gugurt cho'plaridan uychalar yasashni yoqtirar edilar. Ularning yasagan uychalarini ko'rinishi quyidagiga o'xshar edi. 1 ta uycha yasash uchun 6 ta cho'p, 2 ta uycha uchun 11 ta cho'p, 3 ta uycha uchun 16 ta cho'p kerak bo'lar edi.
 
- >Kiritilgan**N**ta uycha kerak bo'ladigan cho'plar sonini aniqlaydigan dastur tuzing.
+ > Kiritilgan**N**ta uycha kerak bo'ladigan cho'plar sonini aniqlaydigan dastur tuzing.
 
  ![Alt Text](https://oj.ilmhub.uz/public/upload/6f3dc01ed2.png)
 
@@ -944,8 +937,6 @@ int main()
  ###### Output
 
  **N**ta uycha uchun kerak bo'ladigan cho'plar soni
-
-
  ###### Namuna 1
 
  | Input | Output |
@@ -960,45 +951,32 @@ int main()
 
  ---
 
- ### Masala 24
-
- ##### Prize
+ ### Masala 24 - Prize
 
  ##### Description
 
- >Shahboz, Muhammadrizo, Muhammadjon Furqatning uyiga borish oldidan unga sovg'a olishmoqchi. Sovg'aning narxi `N` so'm. Shahbozda `A` so'm, Muhammadrizoda `B` so'm, Muhammadjonda `C` so'm pul bor. Ularning puli sovg'aga yetsa `Yes`, aks holda `No` degan yozuv chiqarilsin.
+ > Shahboz, Muhammadrizo, Muhammadjon Furqatning uyiga borish oldidan unga sovg'a olishmoqchi. Sovg'aning narxi `N` so'm. Shahbozda `A` so'm, Muhammadrizoda `B` so'm, Muhammadjonda `C` so'm pul bor. Ularning puli sovg'aga yetsa `Yes`, aks holda `No` degan yozuv chiqarilsin.
 
 
  ###### Input
 
  Birinchi qatorda sovg'aning narxi `N`
-
- Ikkinchi qatorda 3 ta butun son `A`, `B`, `C`.`(1 < A, B, C, N < 100000)`
+ Ikkinchi qatorda 3 ta butun sonlar `A`, `B`, `C`: $1 \le A, B, C, N \le 100000$
 
  ###### Output
-
  `Yes` yoki `No` degan chop etilsin.
-
-
  ###### Namuna 1
 
  | Input | Output |
  | - | - |
  | `5`<br>`2 3 4` | `Yes` |
-
  ###### Namuna 2
 
  | Input | Output |
  | - | - |
  | `10`<br>`2 2 2`| `No` |
-
-
  ---
-
- ### Masala 25
-
- ##### Ishora
-
+ ### Masala 25 - Ishora
  ##### Description
 
  >`2` ta berilgan sonning ishoralari bir xil bo'lsa `1`, ikkalasi `0` ga teng bo'lsa `0`, har xil bo'lsa `-1` chiqarilsin.
@@ -1072,24 +1050,20 @@ Sonlar tegishli bo'lgan chorak raqami.
 
 ---
 
-### Masala 27
-
-##### Tenglik
+### Masala 27 - Tenglik
 
 ##### Description
 
->`4` ta berilgan sonlar bir-biriga teng bo'lsa `Yes` aks holda, `No` degan yozuv chiqaring
+> `4` ta berilgan sonlar bir-biriga teng bo'lsa `Yes` aks holda, `No` degan yozuv chiqaring
 
 
 ###### Input
 
-Bir qatorda `4` ta butun son. (`1 <= a, b, c, d <= 10`)
+Bir qatorda `4` ta butun son: $1 \leq a, b, c, d \leq 10$
 
 ###### Output
 
 Masalaning javobi.
-
-
 ###### Namuna 1
 
 | Input | Output |
@@ -1101,6 +1075,4 @@ Masalaning javobi.
 | Input | Output |
 | - | - |
 |`1 1 1 1`| `Yes`|
-
-
 ---
