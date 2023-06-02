@@ -928,7 +928,7 @@ int main()
 
  > Kiritilgan**N**ta uycha kerak bo'ladigan cho'plar sonini aniqlaydigan dastur tuzing.
 
- ![Alt Text](https://oj.ilmhub.uz/public/upload/6f3dc01ed2.png)
+ [](https://oj.ilmhub.uz/public/upload/6f3dc01ed2.png)
 
  ###### Input
 
@@ -965,6 +965,7 @@ int main()
 
  ###### Output
  `Yes` yoki `No` degan chop etilsin.
+ 
  ###### Namuna 1
 
  | Input | Output |
@@ -976,15 +977,15 @@ int main()
  | - | - |
  | `10`<br>`2 2 2`| `No` |
  ---
- ### Masala 25 - Ishora
- ##### Description
+ 
+ ### Masala 25 - Ishora - Description
 
  >`2` ta berilgan sonning ishoralari bir xil bo'lsa `1`, ikkalasi `0` ga teng bo'lsa `0`, har xil bo'lsa `-1` chiqarilsin.
 
 
  ###### Input
 
- Bitta qatorda `2` ta butun `a`, `b ` `(-100 < a, b < 100)`
+ Bitta qatorda `2` ta butun `a`, `b `: $-100 \le a, b \le 100$
 
  ###### Output
 
@@ -1006,15 +1007,17 @@ int main()
  ---
 
 
-### Masala 26
-
-##### Koordinata
+### Masala 26 - Koordinata
 
 ##### Description
 
->Kordinatada bir nuqtani anglatuvchi `X` va `Y` ni o'qing. So'ngra shu nuqta kordinata tizimining qaysi choragiga tegishli ekanini aniqlab, chorak raqamini chop eting.
+> Kordinatada bir nuqtani anglatuvchi `X` va `Y` ni o'qing. So'ngra shu nuqta kordinata tizimining qaysi choragiga tegishli ekanini aniqlab, chorak raqamini chop eting.
 
-![Alt Text](https://oj.ilmhub.uz/public/upload/14810f34ef.png)
+```mermaid
+quadrantChart
+    x-axis
+    y-axis
+```
 
 
 `A`, `B`, `C`, `D` choraklar mos ravishda `1`, `2`, `3`, `4` ga teng.
