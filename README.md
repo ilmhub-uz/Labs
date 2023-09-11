@@ -9,5 +9,5 @@ Sizda yangi masalalar bormi? Yoki masalalar shartlarida hatolik topdingizmi? Und
 - Masala qo'shish uchun siz qo'shmoqchi bo'lgan masala qaysi mavzuga to'g'ri kelishini aniqlang va kerakli faylni toping.
 - Masalani mavjud faylni eng oxiriga masala tartib raqamini saqlagan holda qo'shing
 - Masala qo'shilgach `main` branch ga **Pull Request** yuboring
-- Har bir muvoffaqiyatli qo'shilgan masalalar moderatsiyadan o'tganidan keyin 10,000 UZS mukofot puli olasiz
+- Har bir muvoffaqiyatli qo'shilgan masalalar moderatsiyadan o'tganidan keyin XXX UZS mukofot puli olasiz
 
