@@ -182,10 +182,5 @@ Baxolar yig'inisini kasr va butun son sifatida alohida qatorlarda chop eting.
 | Input | Output |
 | - | - |
 | `3.6 3.7 3.8` | `11.1` <br> `11` |
-  
-###### Namuna 2
-  
-| Input | Output |
-| - | - |
-| `m` | `0X6D` |
+
 ---
