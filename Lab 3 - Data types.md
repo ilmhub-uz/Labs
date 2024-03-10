@@ -161,3 +161,31 @@ Kiritilgan belgini `hex` formatda chop eting.
 | - | - |
 | `m` | `0X6D` |
 ---
+
+
+### Masala 6
+  
+######  Description
+    
+> Foydalanuvchidan 3 ta talabaning baxolarini kasr son sifatda o'qing. Keyin baxolar yig'indisini kasr son va butun son sifatida chop eting.
+
+###### Input
+  
+3 ta talabaning baxolari.
+  
+###### Output
+  
+Baxolar yig'inisini kasr va butun son sifatida alohida qatorlarda chop eting.
+
+###### Namuna 1
+  
+| Input | Output |
+| - | - |
+| `3.6 3.7 3.8` | `11.1` <br> `11` |
+  
+###### Namuna 2
+  
+| Input | Output |
+| - | - |
+| `m` | `0X6D` |
+---
