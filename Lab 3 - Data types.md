@@ -25,7 +25,7 @@ Ikkala kiritilgan sonlarning yig'indisi.
   
 | Input | Output |
 | - | - |
-| `4294967294` `4294967294` | `4294967294` |
+| `2147483647` `2147483647` | `4294967294` |
 
 ###### Namuna 3
   
